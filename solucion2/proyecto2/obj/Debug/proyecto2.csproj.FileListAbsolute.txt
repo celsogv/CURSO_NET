@@ -1,0 +1,7 @@
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\proyecto2\obj\Debug\proyecto2.csprojAssemblyReference.cache
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\proyecto2\obj\Debug\proyecto2.csproj.CoreCompileInputs.cache
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\proyecto2\bin\Debug\proyecto2.exe.config
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\proyecto2\bin\Debug\proyecto2.exe
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\proyecto2\bin\Debug\proyecto2.pdb
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\proyecto2\obj\Debug\proyecto2.exe
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\proyecto2\obj\Debug\proyecto2.pdb

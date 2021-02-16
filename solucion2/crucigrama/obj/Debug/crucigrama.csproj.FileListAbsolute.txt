@@ -1,0 +1,9 @@
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\crucigrama\bin\Debug\crucigrama.exe.config
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\crucigrama\bin\Debug\crucigrama.exe
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\crucigrama\bin\Debug\crucigrama.pdb
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\crucigrama\obj\Debug\crucigrama.csprojAssemblyReference.cache
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\crucigrama\obj\Debug\crucigrama.Properties.Resources.resources
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\crucigrama\obj\Debug\crucigrama.csproj.GenerateResource.cache
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\crucigrama\obj\Debug\crucigrama.csproj.CoreCompileInputs.cache
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\crucigrama\obj\Debug\crucigrama.exe
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\crucigrama\obj\Debug\crucigrama.pdb

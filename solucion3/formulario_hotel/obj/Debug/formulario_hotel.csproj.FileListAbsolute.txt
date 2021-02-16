@@ -1,0 +1,10 @@
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion3\formulario_hotel\bin\Debug\formulario_hotel.exe.config
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion3\formulario_hotel\bin\Debug\formulario_hotel.exe
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion3\formulario_hotel\bin\Debug\formulario_hotel.pdb
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion3\formulario_hotel\obj\Debug\formulario_hotel.csprojAssemblyReference.cache
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion3\formulario_hotel\obj\Debug\formulario_hotel.Form1.resources
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion3\formulario_hotel\obj\Debug\formulario_hotel.Properties.Resources.resources
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion3\formulario_hotel\obj\Debug\formulario_hotel.csproj.GenerateResource.cache
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion3\formulario_hotel\obj\Debug\formulario_hotel.csproj.CoreCompileInputs.cache
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion3\formulario_hotel\obj\Debug\formulario_hotel.exe
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion3\formulario_hotel\obj\Debug\formulario_hotel.pdb

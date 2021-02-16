@@ -1,0 +1,10 @@
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\formulario_factura\bin\Debug\formulario_factura.exe.config
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\formulario_factura\bin\Debug\formulario_factura.exe
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\formulario_factura\bin\Debug\formulario_factura.pdb
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\formulario_factura\obj\Debug\formulario_factura.csprojAssemblyReference.cache
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\formulario_factura\obj\Debug\formulario_factura.Form1.resources
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\formulario_factura\obj\Debug\formulario_factura.Properties.Resources.resources
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\formulario_factura\obj\Debug\formulario_factura.csproj.GenerateResource.cache
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\formulario_factura\obj\Debug\formulario_factura.csproj.CoreCompileInputs.cache
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\formulario_factura\obj\Debug\formulario_factura.exe
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\formulario_factura\obj\Debug\formulario_factura.pdb

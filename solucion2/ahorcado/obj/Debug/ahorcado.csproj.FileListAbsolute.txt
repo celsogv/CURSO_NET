@@ -1,0 +1,10 @@
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\ahorcado\bin\Debug\ahorcado.exe.config
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\ahorcado\bin\Debug\ahorcado.exe
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\ahorcado\bin\Debug\ahorcado.pdb
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\ahorcado\obj\Debug\ahorcado.csprojAssemblyReference.cache
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\ahorcado\obj\Debug\ahorcado.Form1.resources
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\ahorcado\obj\Debug\ahorcado.Properties.Resources.resources
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\ahorcado\obj\Debug\ahorcado.csproj.GenerateResource.cache
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\ahorcado\obj\Debug\ahorcado.csproj.CoreCompileInputs.cache
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\ahorcado\obj\Debug\ahorcado.exe
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\ahorcado\obj\Debug\ahorcado.pdb

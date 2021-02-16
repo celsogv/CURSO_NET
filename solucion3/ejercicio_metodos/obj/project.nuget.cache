@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+iCxZO2e7ejhFceZHkBTd36nzAw9AXjQqmo9vXBGII/2HA/KSGMDEh1v8mnxCa11K5u5yPLaqWFuBmK0Giuimw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MAÑANA\\Desktop\\mis documentos celso garcia villanueva\\c#\\solucion3\\ejercicio_metodos\\ejercicio_metodos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MAÑANA\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.12\\microsoft.netcore.app.host.win-x64.3.1.12.nupkg.sha512"
+  ],
+  "logs": []
+}

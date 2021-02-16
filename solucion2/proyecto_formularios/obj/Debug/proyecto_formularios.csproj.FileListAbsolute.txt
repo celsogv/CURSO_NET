@@ -1,0 +1,10 @@
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\proyecto_formularios\bin\Debug\proyecto_formularios.exe.config
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\proyecto_formularios\bin\Debug\proyecto_formularios.exe
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\proyecto_formularios\bin\Debug\proyecto_formularios.pdb
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\proyecto_formularios\obj\Debug\proyecto_formularios.csprojAssemblyReference.cache
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\proyecto_formularios\obj\Debug\proyecto_formularios.Form1.resources
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\proyecto_formularios\obj\Debug\proyecto_formularios.Properties.Resources.resources
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\proyecto_formularios\obj\Debug\proyecto_formularios.csproj.GenerateResource.cache
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\proyecto_formularios\obj\Debug\proyecto_formularios.csproj.CoreCompileInputs.cache
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\proyecto_formularios\obj\Debug\proyecto_formularios.exe
+C:\Users\MAÑANA\Desktop\mis documentos celso garcia villanueva\c#\solucion2\proyecto_formularios\obj\Debug\proyecto_formularios.pdb
