@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MAÑANA\\Desktop\\mis documentos celso garcia villanueva\\c#\\solucion3\\ejercicio_metodos\\ejercicio_metodos.csproj": {}
+    "C:\\Users\\MAÑANA\\source\\repos\\CURSO_NET\\solucion3\\ejercicio_metodos\\ejercicio_metodos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MAÑANA\\Desktop\\mis documentos celso garcia villanueva\\c#\\solucion3\\ejercicio_metodos\\ejercicio_metodos.csproj": {
+    "C:\\Users\\MAÑANA\\source\\repos\\CURSO_NET\\solucion3\\ejercicio_metodos\\ejercicio_metodos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MAÑANA\\Desktop\\mis documentos celso garcia villanueva\\c#\\solucion3\\ejercicio_metodos\\ejercicio_metodos.csproj",
+        "projectUniqueName": "C:\\Users\\MAÑANA\\source\\repos\\CURSO_NET\\solucion3\\ejercicio_metodos\\ejercicio_metodos.csproj",
         "projectName": "ejercicio_metodos",
-        "projectPath": "C:\\Users\\MAÑANA\\Desktop\\mis documentos celso garcia villanueva\\c#\\solucion3\\ejercicio_metodos\\ejercicio_metodos.csproj",
+        "projectPath": "C:\\Users\\MAÑANA\\source\\repos\\CURSO_NET\\solucion3\\ejercicio_metodos\\ejercicio_metodos.csproj",
         "packagesPath": "C:\\Users\\MAÑANA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MAÑANA\\Desktop\\mis documentos celso garcia villanueva\\c#\\solucion3\\ejercicio_metodos\\obj\\",
+        "outputPath": "C:\\Users\\MAÑANA\\source\\repos\\CURSO_NET\\solucion3\\ejercicio_metodos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MAÑANA\\AppData\\Roaming\\NuGet\\NuGet.Config",
