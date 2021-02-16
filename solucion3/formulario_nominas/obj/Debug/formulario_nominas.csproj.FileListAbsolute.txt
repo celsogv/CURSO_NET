@@ -1,0 +1,10 @@
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\formulario_nominas\bin\Debug\formulario_nominas.exe.config
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\formulario_nominas\bin\Debug\formulario_nominas.exe
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\formulario_nominas\bin\Debug\formulario_nominas.pdb
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\formulario_nominas\obj\Debug\formulario_nominas.csprojAssemblyReference.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\formulario_nominas\obj\Debug\formulario_nominas.Form1.resources
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\formulario_nominas\obj\Debug\formulario_nominas.Properties.Resources.resources
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\formulario_nominas\obj\Debug\formulario_nominas.csproj.GenerateResource.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\formulario_nominas\obj\Debug\formulario_nominas.csproj.CoreCompileInputs.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\formulario_nominas\obj\Debug\formulario_nominas.exe
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\formulario_nominas\obj\Debug\formulario_nominas.pdb

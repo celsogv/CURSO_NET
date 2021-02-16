@@ -1,0 +1,13 @@
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\ejercicio_metodos\obj\Debug\netcoreapp3.1\ejercicio_metodos.csprojAssemblyReference.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\ejercicio_metodos\obj\Debug\netcoreapp3.1\ejercicio_metodos.AssemblyInfoInputs.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\ejercicio_metodos\obj\Debug\netcoreapp3.1\ejercicio_metodos.AssemblyInfo.cs
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\ejercicio_metodos\obj\Debug\netcoreapp3.1\ejercicio_metodos.csproj.CoreCompileInputs.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\ejercicio_metodos\bin\Debug\netcoreapp3.1\ejercicio_metodos.exe
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\ejercicio_metodos\bin\Debug\netcoreapp3.1\ejercicio_metodos.deps.json
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\ejercicio_metodos\bin\Debug\netcoreapp3.1\ejercicio_metodos.runtimeconfig.json
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\ejercicio_metodos\bin\Debug\netcoreapp3.1\ejercicio_metodos.runtimeconfig.dev.json
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\ejercicio_metodos\bin\Debug\netcoreapp3.1\ejercicio_metodos.dll
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\ejercicio_metodos\bin\Debug\netcoreapp3.1\ejercicio_metodos.pdb
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\ejercicio_metodos\obj\Debug\netcoreapp3.1\ejercicio_metodos.dll
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\ejercicio_metodos\obj\Debug\netcoreapp3.1\ejercicio_metodos.pdb
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\ejercicio_metodos\obj\Debug\netcoreapp3.1\ejercicio_metodos.genruntimeconfig.cache
