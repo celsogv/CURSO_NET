@@ -1,0 +1,10 @@
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\formulario_alumnos\bin\Debug\formulario_alumnos.exe.config
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\formulario_alumnos\bin\Debug\formulario_alumnos.exe
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\formulario_alumnos\bin\Debug\formulario_alumnos.pdb
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\formulario_alumnos\obj\Debug\formulario_alumnos.csprojAssemblyReference.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\formulario_alumnos\obj\Debug\formulario_alumnos.Form1.resources
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\formulario_alumnos\obj\Debug\formulario_alumnos.Properties.Resources.resources
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\formulario_alumnos\obj\Debug\formulario_alumnos.csproj.GenerateResource.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\formulario_alumnos\obj\Debug\formulario_alumnos.csproj.CoreCompileInputs.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\formulario_alumnos\obj\Debug\formulario_alumnos.exe
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion3\formulario_alumnos\obj\Debug\formulario_alumnos.pdb
