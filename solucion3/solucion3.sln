@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formulario_nominas", "formu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formulario_alumnos", "formulario_alumnos\formulario_alumnos.csproj", "{8354B77D-8965-4A14-AADF-7C7232237E73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formulario_clientes", "formulario_clientes\formulario_clientes.csproj", "{A70226FB-710A-4C40-B3EC-FAD6C79ED652}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8354B77D-8965-4A14-AADF-7C7232237E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8354B77D-8965-4A14-AADF-7C7232237E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8354B77D-8965-4A14-AADF-7C7232237E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A70226FB-710A-4C40-B3EC-FAD6C79ED652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A70226FB-710A-4C40-B3EC-FAD6C79ED652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A70226FB-710A-4C40-B3EC-FAD6C79ED652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A70226FB-710A-4C40-B3EC-FAD6C79ED652}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
