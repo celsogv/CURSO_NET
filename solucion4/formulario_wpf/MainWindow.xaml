@@ -1,0 +1,41 @@
+﻿<Window x:Class="formulario_wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:formulario_wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="orange">
+        <StackPanel HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="794" Margin="0,0,0,376" Background="Yellow">
+            <TextBlock TextWrapping="Wrap" Text="CAFETERIA EL BUEN CAFE" Margin="329,0,327.6,0" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="False" Foreground="#FFC09E35"/>
+        </StackPanel>
+        <DockPanel HorizontalAlignment="Left" Height="120" LastChildFill="False" Margin="0,87,-0.4,0" VerticalAlignment="Top" Width="794" Background="Gray">
+            <TextBlock Height="17" TextWrapping="Wrap" Text="¿Como quieres el cafe?" VerticalAlignment="Top" Margin="17,17,0,0"/>
+            <Button Content="Con leche" Height="27" VerticalAlignment="Top" Width="75" Margin="29,7,0,0"/>
+            <Button Content="Cortado" Height="27" VerticalAlignment="Top" Width="76" Margin="29,7,0,0"/>
+            <Button Content="Capichino" Height="27" VerticalAlignment="Top" Width="76" Margin="29,7,0,0"/>
+            <Button Content="Carajillo" Height="27" VerticalAlignment="Top" Width="76" HorizontalAlignment="Center" Margin="29,7,0,0"/>
+        </DockPanel>
+        <DockPanel Margin="0,0,-0.4,222" >
+            <Image Height="43" VerticalAlignment="Top" Width="100" Margin="0,149,0,0" Source="cafe.png" />
+        </DockPanel>
+
+        <DockPanel HorizontalAlignment="Left" LastChildFill="False" Margin="0,230,-0.4,80" Width="794" Background="#FFAB5E6B" RenderTransformOrigin="0.501,0.598">
+            <DockPanel LastChildFill="False" Width="379" RenderTransformOrigin="0.505,0.85" Margin="0,0,0,34.8">
+                <CheckBox Content="2 de Azucar" Height="32" VerticalAlignment="Top" Margin="79,0,0,0"/>
+                <CheckBox Content="Galletas" Height="32" VerticalAlignment="Top"/>
+                <CheckBox Content="Bomboncillo de choco" Height="32" VerticalAlignment="Top"/>
+            </DockPanel>
+            <WrapPanel Height="110" VerticalAlignment="Top" Width="405" Margin="0,0,0,-0.4">
+                <Button Content="Pagado" Height="35" VerticalAlignment="Top" Width="150" Margin="0,7,0,-0.4" Background="#FFC1F68D"/>
+                <TextBox Height="18" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" Margin="17,7,0,-0.4" Background="#FF44E81B"/>
+                <Button Content="Devuelto" Height="38" VerticalAlignment="Top" Width="151" Margin="0,17,0,-0.4" Background="#FFC9F3A1"/>
+                <TextBox Height="18" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" Margin="17,17,0,-0.4" Background="#FF40E417"/>
+            </WrapPanel>
+            <DockPanel />
+        </DockPanel>
+        <StackPanel HorizontalAlignment="Left" Margin="0,371,0,5" Width="794" Background="#FFDCDBDB"/>
+
+    </Grid>
+</Window>
