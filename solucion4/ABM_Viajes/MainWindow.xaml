@@ -53,10 +53,10 @@
         <GroupBox Header="Cantidad de personas" HorizontalAlignment="Left" Height="184" Margin="0,184,0,0" VerticalAlignment="Top" Width="352">
             <WrapPanel HorizontalAlignment="Left" Height="174" VerticalAlignment="Bottom" Width="342" Margin="0,0,-2,-12.4" RenderTransformOrigin="0.5,0.5">
 
-                <RadioButton Content="1 Persona" Height="40" Width="339"/>
-                <RadioButton Content="2 Personas" Height="39" Width="339"/>
-                <RadioButton Content="3 Personas" Height="42" Width="344"/>
-                <RadioButton Content="4 Personas" Height="19" Width="339"/>
+                <RadioButton x:Name="r1" Content="1 Persona" Height="40" Width="339"/>
+                <RadioButton x:Name="r2" Content="2 Personas" Height="39" Width="339"/>
+                <RadioButton x:Name="r3" Content="3 Personas" Height="42" Width="344"/>
+                <RadioButton x:Name="r4" Content="4 Personas" Height="19" Width="339"/>
             </WrapPanel>
 
         </GroupBox>

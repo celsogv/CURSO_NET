@@ -42,24 +42,57 @@ namespace ABM_Viajes
 
         {
 
-            MessageBox.Show(RadioButton.ContentProperty.ToString());
-
-
+           
             //deec
             try
             {
+
+                string numerodepersonas;
+                if (r1.Content.ToString() != "")
+                {
+
+
+                    numerodepersonas = r1.Content.ToString();
+                }
+                if (r2.Content.ToString() != "")
+                {
+
+
+                    numerodepersonas = r2.Content.ToString();
+                }
+                if (r3.Content.ToString() != "")
+                {
+
+
+                    numerodepersonas = r3.Content.ToString();
+                }
+                if (r4.Content.ToString() != "")
+                {
+
+
+                    numerodepersonas = r4.Content.ToString();
+                }
+
                 string valornombre = nombre.Text;
                 string valorfechasalida = fecha_salida.Text.ToString();
                 string valorlugardesalida = lugardesalida.Text;
                 string valorlugardellegada = lugardellegada.Text;
                 string valorfechallegada = fecha_llegada.Text.ToString();
                 string valorempresa = txtempresa.Text;
-                string valorcorreo = txtcorreo.Text;
-                
+                string valorcorreo = txtcorreo.Text; 
 
-                //asig
-                MessageBox.Show("Empresa: " + valorempresa + "\n" + "ESTIMADO " + valornombre + " Correo " + valorcorreo + "\n" +"Reserva Realizada para el dia " + valorfechasalida + "\n" + "De " + valorlugardesalida + " a " + valorlugardellegada + " para " + valorfechallegada);
-            } catch
+                if ((valorempresa == "MyCombo") || (valornombre == "") || (valorcorreo == "") || (valorfechasalida == "") ||(valorlugardesalida == "") || (valorlugardellegada== "") || (valorfechallegada == ""))
+                {
+
+                    MessageBox.Show("Faltan campos por rellenar");
+                }
+                else
+                {
+                    //asig
+                    MessageBox.Show("Empresa: " + valorempresa + "\n" + "ESTIMADO " + valornombre + " Correo " + valorcorreo + "\n" + "Reserva Realizada para el dia " + valorfechasalida + "\n" + "De " + valorlugardesalida + " a " + valorlugardellegada + " para " + valorfechallegada);
+                }
+                
+                } catch
             {
 
                 MessageBox.Show("Se ha producido un error");
