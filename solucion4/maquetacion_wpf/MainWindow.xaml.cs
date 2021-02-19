@@ -62,5 +62,18 @@ namespace maquetacion_wpf
             PrintDialog pDialog = new PrintDialog();
             pDialog.ShowDialog();
         }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                lvDatos.Items.RemoveAt(0);
+            } catch
+            {
+                MessageBox.Show("no quedan filas para eliminar");
+
+
+            }
+        }
     }
 }
