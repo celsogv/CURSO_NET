@@ -41,12 +41,24 @@ namespace ABM_Viajes
         private void aceptar_Click(object sender, RoutedEventArgs e)
 
         {
+
+            MessageBox.Show(RadioButton.ContentProperty.ToString());
+
+
             //deec
             try
             {
+                string valornombre = nombre.Text;
+                string valorfechasalida = fecha_salida.Text.ToString();
+                string valorlugardesalida = lugardesalida.Text;
+                string valorlugardellegada = lugardellegada.Text;
+                string valorfechallegada = fecha_llegada.Text.ToString();
+                string valorempresa = txtempresa.Text;
+                string valorcorreo = txtcorreo.Text;
+                
 
                 //asig
-                MessageBox.Show("ESTIMADO " + nombre.Text + "\n" +"Reserva Realizada para el dia " + fecha_salida.Text.ToString() + "\n" + "De " + lugardesalida.Text + " a " + lugardellegada.Text + " para " + fecha_llegada.Text.ToString());
+                MessageBox.Show("Empresa: " + valorempresa + "\n" + "ESTIMADO " + valornombre + " Correo " + valorcorreo + "\n" +"Reserva Realizada para el dia " + valorfechasalida + "\n" + "De " + valorlugardesalida + " a " + valorlugardellegada + " para " + valorfechallegada);
             } catch
             {
 

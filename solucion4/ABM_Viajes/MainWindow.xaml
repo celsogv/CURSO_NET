@@ -11,10 +11,10 @@
             <TextBlock TextWrapping="Wrap" Text="Empresa"/>
         </WrapPanel>
         <WrapPanel HorizontalAlignment="Left" Height="42" Margin="0,24,-0.4,0" VerticalAlignment="Top" Width="794">
-            <ComboBox Width="120" Text="MyCombo">
-                <ComboBoxItem Name="cbi1">Item1</ComboBoxItem>
-                <ComboBoxItem Name="cbi2">Item2</ComboBoxItem>
-                <ComboBoxItem Name="cbi3">Item3</ComboBoxItem>
+            <ComboBox Width="120" Text="MyCombo" Name="txtempresa">
+                <ComboBoxItem Name="cbi1">Empresa 1</ComboBoxItem>
+                <ComboBoxItem Name="cbi2">Empresa 2</ComboBoxItem>
+                <ComboBoxItem Name="cbi3">Empresa 3</ComboBoxItem>
             </ComboBox>
         </WrapPanel>
         <WrapPanel HorizontalAlignment="Left" Height="33" Margin="0,66,0,0" VerticalAlignment="Top" Width="352">
@@ -70,7 +70,7 @@
                     <TextBlock TextWrapping="Wrap" Text="Correo electronico"/>
                 </WrapPanel>
                 <WrapPanel Height="26" Width="414">
-                    <TextBox Height="23" TextWrapping="Wrap" Width="120"/>
+                    <TextBox Height="23" TextWrapping="Wrap" Width="120" Name="txtcorreo"/>
                 </WrapPanel>
             </WrapPanel>
         </GroupBox>
