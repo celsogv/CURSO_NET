@@ -24,5 +24,43 @@ namespace maquetacion_wpf
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            txtbox1.Text = "";
+            txtbox2.Text = "";
+            txtbox3.Text = "";
+            txtbox4.Text = "";
+            txtbox5.Text = "";
+            txtbox6.Text = "";
+            txtbox7.Text = "";
+            txtbox8.Text = "";
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            if ((txtbox2.Text == "") || (txtbox5.Text == "") || (txtbox6.Text == "") || (txtbox3.Text == "")) {
+                MessageBox.Show("Faltan campos por rellenar");
+                
+            } else
+            {
+
+                lvDatos.Items.Add(new { Nombre = txtbox2.Text, venta = txtbox5.Text, PecUni = txtbox6.Text, Descuento = txtbox3.Text });
+
+            }
+            
+            
+            }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            PrintDialog pDialog = new PrintDialog();
+            pDialog.ShowDialog();
+        }
     }
 }

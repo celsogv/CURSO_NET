@@ -15,29 +15,29 @@
                 </WrapPanel>
                 <GroupBox Header="Actualizacion de ingresos" Height="321" Width="364" Foreground="#FF4179D7" FontWeight="Bold" FontSize="16">
                     <WrapPanel HorizontalAlignment="Left" Height="294" Margin="0,10,-2,-10.4" VerticalAlignment="Top" Width="354">
-                        <TextBlock TextWrapping="Wrap" Text="Fecha:" Width="77"/>
-                        <ComboBox Width="217" HorizontalAlignment="Left" Margin="29,0,0,0"/>
-                        <TextBlock TextWrapping="Wrap" Text="Descripcion:"/>
-                        <TextBox Height="59" TextWrapping="Wrap" Width="243" Margin="7,0,0,0"/>
+                        <TextBlock TextWrapping="Wrap" Text="Fecha:" Width="77" Margin="0,7,0,0"/>
+                        <DatePicker />
+                        <TextBlock TextWrapping="Wrap" Text="Descripcion:" Margin="0,7,0,0"/>
+                        <TextBox Height="59" TextWrapping="Wrap" Width="243" Margin="7,7,0,0" Name="txtbox1"/>
                         <WrapPanel Height="206" Width="355">
-                            <TextBlock TextWrapping="Wrap" Text="Nombre"/>
-                            <TextBox Height="23" TextWrapping="Wrap" Width="267" Margin="7,0,0,0"/>
+                            <TextBlock TextWrapping="Wrap" Text="Nombre" Margin="0,7,0,0"/>
+                            <TextBox Height="23" TextWrapping="Wrap" Width="267" Margin="7,7,0,0" Name="txtbox2"/>
                             <TextBlock TextWrapping="Wrap" Text="Descuento"/>
-                            <TextBox Height="23" TextWrapping="Wrap" Width="120" Margin="7,0,0,0"/>
+                            <TextBox Height="23" TextWrapping="Wrap" Width="120" Margin="7,0,0,0" Name="txtbox3"/>
                             <TextBlock TextWrapping="Wrap" Text="IVA" Margin="7,0,0,0"/>
-                            <TextBox Height="23" TextWrapping="Wrap" Text="TextBox" Width="85" Margin="7,0,0,0"/>
+                            <TextBox Height="23" TextWrapping="Wrap" Width="85" Margin="7,0,0,0" Name="txtbox4"/>
                             <TextBlock TextWrapping="Wrap" Text="Cantidad"/>
-                            <TextBox Height="24" TextWrapping="Wrap" Width="100" Margin="7,0,0,0"/>
+                            <TextBox Height="24" TextWrapping="Wrap" Width="100" Margin="7,0,0,0" Name="txtbox5"/>
                             <TextBlock TextWrapping="Wrap" Text="Precio/Unit" Margin="7,0,0,0"/>
-                            <TextBox Height="23" TextWrapping="Wrap" Width="72" Margin="7,0,0,0"/>
+                            <TextBox Height="23" TextWrapping="Wrap" Width="72" Margin="7,0,0,0" Name="txtbox6"/>
                             <WrapPanel Height="133" Width="243">
                                 <TextBlock TextWrapping="Wrap" Text="PAGADO"/>
-                                <TextBox Height="23" TextWrapping="Wrap" Width="160" Margin="7,0,0,0"/>
+                                <TextBox Height="23" TextWrapping="Wrap" Width="160" Margin="7,0,0,0" Name="txtbox7"/>
                                 <TextBlock TextWrapping="Wrap" Text="TOTAL"/>
-                                <TextBox Height="23" TextWrapping="Wrap" Width="152" Margin="7,0,0,0"/>
-                                <Button Content="Nuevo" Width="75"/>
-                                <Button Content="Agregar" Width="75"/>
-                                <Button Content="Cancelar" Width="75"/>
+                                <TextBox Height="23" TextWrapping="Wrap" Width="152" Margin="7,0,0,0" Name="txtbox8"/>
+                                <Button Content="Nuevo" Width="75" Margin="7,7,0,0" RenderTransformOrigin="0.5,0.504" Click="Button_Click"/>
+                                <Button Content="Agregar" Width="75" Margin="0,7,0,0" Click="Button_Click_1"/>
+                                <Button Content="Cancelar" Width="75" Margin="0,7,0,0"/>
                             </WrapPanel>
                             <WrapPanel Height="124" Width="100">
                                 <Image Height="69" Width="94" Source="img2.bmp" Margin="0,7,0,0"/>
@@ -48,10 +48,24 @@
                 </GroupBox>
             </WrapPanel>
             <WrapPanel Height="400" VerticalAlignment="Top" Width="407" RenderTransformOrigin="0.876,0.498">
-                <DataGrid Height="272" Width="405"/>
-                <Button Content="Eliminar" Width="75" Margin="17,0,0,0"/>
-                <Button Content="Imprimir" Width="75" Margin="17,0,0,0"/>
-                <Button Content="DSalir" Width="75" Margin="17,0,0,0"/>
+                <ListView Height="272" Width="405" Name="lvDatos" MinHeight="340" HorizontalAlignment="Stretch">
+                    <ListView.View>
+                        <GridView AllowsColumnReorder="True">
+                            <GridViewColumn Header="Nombre" DisplayMemberBinding="{Binding Nombre}" Width="150" />
+                            <GridViewColumn Header="Cantidad de venta" DisplayMemberBinding="{Binding venta}" Width="190" />
+                            <GridViewColumn Header="Precio unitario" DisplayMemberBinding="{Binding PecUni}" Width="70" />
+                            <GridViewColumn Header="Descuento" DisplayMemberBinding="{Binding Descuento}" Width="70" />
+
+                        </GridView>
+                    </ListView.View>
+                    
+                    
+                </ListView>
+                    <Button Content="Eliminar" Width="75" Margin="17,7,0,0"/>
+                <Button Content="Imprimir" Width="75" Margin="17,7,0,0" Click="Button_Click_3"/>
+                <Button Content="Salir" Width="75" Margin="17,7,0,0" Click="Button_Click_2"/>
+                <TextBlock TextWrapping="Wrap" Text="Total Registros:" FontSize="16" Margin="0,7,0,0" Foreground="#FFD90FEA"/>
+                <CheckBox Content="" Margin="0,7,0,0"/>
             </WrapPanel>
         </DockPanel>
 
