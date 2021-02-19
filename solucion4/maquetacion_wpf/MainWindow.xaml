@@ -32,7 +32,12 @@
                             <TextBox Height="23" TextWrapping="Wrap" Width="72" Margin="7,0,0,0"/>
                             <WrapPanel Height="133" Width="243">
                                 <TextBlock TextWrapping="Wrap" Text="PAGADO"/>
-                                <TextBox Height="23" TextWrapping="Wrap" Text="TextBox" Width="160"/>
+                                <TextBox Height="23" TextWrapping="Wrap" Width="160" Margin="7,0,0,0"/>
+                                <TextBlock TextWrapping="Wrap" Text="TOTAL"/>
+                                <TextBox Height="23" TextWrapping="Wrap" Width="152" Margin="7,0,0,0"/>
+                                <Button Content="Nuevo" Width="75"/>
+                                <Button Content="Agregar" Width="75"/>
+                                <Button Content="Cancelar" Width="75"/>
                             </WrapPanel>
                             <WrapPanel Height="124" Width="100">
                                 <Image Height="69" Width="94" Source="img2.bmp" Margin="0,7,0,0"/>
@@ -42,7 +47,12 @@
                     </WrapPanel>
                 </GroupBox>
             </WrapPanel>
-            <WrapPanel Height="400" VerticalAlignment="Top" Width="407" RenderTransformOrigin="0.876,0.498"/>
+            <WrapPanel Height="400" VerticalAlignment="Top" Width="407" RenderTransformOrigin="0.876,0.498">
+                <DataGrid Height="272" Width="405"/>
+                <Button Content="Eliminar" Width="75" Margin="17,0,0,0"/>
+                <Button Content="Imprimir" Width="75" Margin="17,0,0,0"/>
+                <Button Content="DSalir" Width="75" Margin="17,0,0,0"/>
+            </WrapPanel>
         </DockPanel>
 
     </Grid>
