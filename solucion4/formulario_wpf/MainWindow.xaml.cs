@@ -13,16 +13,34 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace formulario_wpf
+namespace ABM_Viajes
 {
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        string empresa;
+        string fechasalida;
+        string lugarsalida;
+        string fechallegada;
+        string lugarllegada;
+
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void cancelar_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void aceptar_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("hola");
         }
     }
 }

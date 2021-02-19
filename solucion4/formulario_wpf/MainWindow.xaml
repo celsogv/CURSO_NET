@@ -1,41 +1,76 @@
-﻿<Window x:Class="formulario_wpf.MainWindow"
+﻿<Window x:Class="ABM_Viajes.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:formulario_wpf"
+        xmlns:local="clr-namespace:ABM_Viajes"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid Background="orange">
-        <StackPanel HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="794" Margin="0,0,0,376" Background="Yellow">
-            <TextBlock TextWrapping="Wrap" Text="CAFETERIA EL BUEN CAFE" Margin="329,0,327.6,0" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="False" Foreground="#FFC09E35"/>
-        </StackPanel>
-        <DockPanel HorizontalAlignment="Left" Height="120" LastChildFill="False" Margin="0,87,-0.4,0" VerticalAlignment="Top" Width="794" Background="Gray">
-            <TextBlock Height="17" TextWrapping="Wrap" Text="¿Como quieres el cafe?" VerticalAlignment="Top" Margin="17,17,0,0"/>
-            <Button Content="Con leche" Height="27" VerticalAlignment="Top" Width="75" Margin="29,7,0,0"/>
-            <Button Content="Cortado" Height="27" VerticalAlignment="Top" Width="76" Margin="29,7,0,0"/>
-            <Button Content="Capichino" Height="27" VerticalAlignment="Top" Width="76" Margin="29,7,0,0"/>
-            <Button Content="Carajillo" Height="27" VerticalAlignment="Top" Width="76" HorizontalAlignment="Center" Margin="29,7,0,0"/>
-        </DockPanel>
-        <DockPanel Margin="0,0,-0.4,222" >
-            <Image Height="43" VerticalAlignment="Top" Width="100" Margin="0,149,0,0" Source="cafe.png" />
-        </DockPanel>
+        Title="MainWindow" Height="450" Width="800" Icon="icono.jpg">
+    <Grid Background="#FF9B9BDC">
+        <WrapPanel HorizontalAlignment="Left" Height="24" Margin="10,0,0,0" VerticalAlignment="Top" Width="774">
+            <TextBlock TextWrapping="Wrap" Text="Empresa"/>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="42" Margin="0,24,-0.4,0" VerticalAlignment="Top" Width="794">
+            <ComboBox Width="120" Text="MyCombo">
+                <ComboBoxItem Name="cbi1">Item1</ComboBoxItem>
+                <ComboBoxItem Name="cbi2">Item2</ComboBoxItem>
+                <ComboBoxItem Name="cbi3">Item3</ComboBoxItem>
+            </ComboBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="33" Margin="0,66,0,0" VerticalAlignment="Top" Width="352">
+            <TextBlock TextWrapping="Wrap" Text="Fecha de salida"/>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="33" Margin="357,66,0,0" VerticalAlignment="Top" Width="427">
+            <TextBlock TextWrapping="Wrap" Text="Fecha de llegada"/>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="26" Margin="0,99,0,0" VerticalAlignment="Top" Width="352" RenderTransformOrigin="0.161,0.366">
+            <ComboBox Width="120"/>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="26" Margin="357,99,-0.4,0" VerticalAlignment="Top" Width="437">
+            <ComboBox Width="120"/>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="27" Margin="0,130,0,0" VerticalAlignment="Top" Width="352">
+            <TextBlock TextWrapping="Wrap" Text="Lugar de Salida"/>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="32" Margin="357,125,0,0" VerticalAlignment="Top" Width="427">
+            <TextBlock TextWrapping="Wrap" Text="Lugar de LLegada"/>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="27" Margin="0,157,0,0" VerticalAlignment="Top" Width="352" RenderTransformOrigin="0.098,0.152">
+            <ComboBox Width="120"/>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="27" Margin="357,157,0,0" VerticalAlignment="Top" Width="427">
+            <ComboBox Width="120"/>
+        </WrapPanel>
+        <GroupBox Header="Cantidad de personas" HorizontalAlignment="Left" Height="184" Margin="0,184,0,0" VerticalAlignment="Top" Width="352">
+            <WrapPanel HorizontalAlignment="Left" Height="174" VerticalAlignment="Bottom" Width="342" Margin="0,0,-2,-12.4" RenderTransformOrigin="0.5,0.5">
 
-        <DockPanel HorizontalAlignment="Left" LastChildFill="False" Margin="0,230,-0.4,80" Width="794" Background="#FFAB5E6B" RenderTransformOrigin="0.501,0.598">
-            <DockPanel LastChildFill="False" Width="379" RenderTransformOrigin="0.505,0.85" Margin="0,0,0,34.8">
-                <CheckBox Content="2 de Azucar" Height="32" VerticalAlignment="Top" Margin="79,0,0,0"/>
-                <CheckBox Content="Galletas" Height="32" VerticalAlignment="Top"/>
-                <CheckBox Content="Bomboncillo de choco" Height="32" VerticalAlignment="Top"/>
-            </DockPanel>
-            <WrapPanel Height="110" VerticalAlignment="Top" Width="405" Margin="0,0,0,-0.4">
-                <Button Content="Pagado" Height="35" VerticalAlignment="Top" Width="150" Margin="0,7,0,-0.4" Background="#FFC1F68D"/>
-                <TextBox Height="18" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" Margin="17,7,0,-0.4" Background="#FF44E81B"/>
-                <Button Content="Devuelto" Height="38" VerticalAlignment="Top" Width="151" Margin="0,17,0,-0.4" Background="#FFC9F3A1"/>
-                <TextBox Height="18" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" Margin="17,17,0,-0.4" Background="#FF40E417"/>
+                <RadioButton Content="1 Persona" Height="40" Width="339"/>
+                <RadioButton Content="2 Personas" Height="39" Width="339"/>
+                <RadioButton Content="3 Personas" Height="42" Width="344"/>
+                <RadioButton Content="4 Personas" Height="19" Width="339"/>
             </WrapPanel>
-            <DockPanel />
-        </DockPanel>
-        <StackPanel HorizontalAlignment="Left" Margin="0,371,0,5" Width="794" Background="#FFDCDBDB"/>
+
+        </GroupBox>
+        <GroupBox Header="Datos de persona responsable" Height="184" Margin="352,184,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.576,0.834" HorizontalAlignment="Left" Width="432">
+            <WrapPanel HorizontalAlignment="Left" Height="149" Margin="0,0,-2,0" VerticalAlignment="Top" Width="422">
+                <TextBlock TextWrapping="Wrap" Text="Nombre" Width="418"/>
+                <WrapPanel Height="35" Width="417" RenderTransformOrigin="0.556,0.649">
+                    <TextBox Height="23" TextWrapping="Wrap" Width="120"/>
+                </WrapPanel>
+                <WrapPanel Height="31" Width="431">
+                    <TextBlock TextWrapping="Wrap" Text="Correo electronico"/>
+                </WrapPanel>
+                <WrapPanel Height="26" Width="414">
+                    <TextBox Height="23" TextWrapping="Wrap" Width="120"/>
+                </WrapPanel>
+            </WrapPanel>
+        </GroupBox>
+        <WrapPanel HorizontalAlignment="Left" Height="47" Margin="10,373,0,0" VerticalAlignment="Top" Width="342">
+            <Button Content="Cancelar" Width="339" Height="42" Name="cancelar" Click="cancelar_Click"/>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="47" Margin="352,373,0,0" VerticalAlignment="Top" Width="432">
+            <Button Content="Aceptar" Width="431" Height="42" Name="aceptar" Click="aceptar_Click"/>
+        </WrapPanel>
 
     </Grid>
 </Window>

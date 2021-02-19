@@ -1,0 +1,15 @@
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion4\ABM_Viajes\bin\Debug\ABM_Viajes.exe.config
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion4\ABM_Viajes\bin\Debug\ABM_Viajes.exe
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion4\ABM_Viajes\bin\Debug\ABM_Viajes.pdb
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion4\ABM_Viajes\obj\Debug\ABM_Viajes.csprojAssemblyReference.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion4\ABM_Viajes\obj\Debug\MainWindow.g.cs
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion4\ABM_Viajes\obj\Debug\App.g.cs
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion4\ABM_Viajes\obj\Debug\ABM_Viajes_MarkupCompile.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion4\ABM_Viajes\obj\Debug\ABM_Viajes_MarkupCompile.lref
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion4\ABM_Viajes\obj\Debug\MainWindow.baml
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion4\ABM_Viajes\obj\Debug\ABM_Viajes.g.resources
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion4\ABM_Viajes\obj\Debug\ABM_Viajes.Properties.Resources.resources
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion4\ABM_Viajes\obj\Debug\ABM_Viajes.csproj.GenerateResource.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion4\ABM_Viajes\obj\Debug\ABM_Viajes.csproj.CoreCompileInputs.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion4\ABM_Viajes\obj\Debug\ABM_Viajes.exe
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion4\ABM_Viajes\obj\Debug\ABM_Viajes.pdb

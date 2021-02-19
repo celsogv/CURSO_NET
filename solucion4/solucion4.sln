@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mi primer wpf", "mi primer 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formulario_wpf", "formulario_wpf\formulario_wpf.csproj", "{72272E82-97E8-4A31-BBAA-567E0DE3A7B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABM_Viajes", "ABM_Viajes\ABM_Viajes.csproj", "{6B727A70-8CBD-4496-ACBB-DEA47D829EC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maquetacion_wpf", "maquetacion_wpf\maquetacion_wpf.csproj", "{1455AE1A-844D-43BB-91EA-35A7DA0D3336}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{72272E82-97E8-4A31-BBAA-567E0DE3A7B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72272E82-97E8-4A31-BBAA-567E0DE3A7B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72272E82-97E8-4A31-BBAA-567E0DE3A7B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B727A70-8CBD-4496-ACBB-DEA47D829EC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B727A70-8CBD-4496-ACBB-DEA47D829EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B727A70-8CBD-4496-ACBB-DEA47D829EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B727A70-8CBD-4496-ACBB-DEA47D829EC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1455AE1A-844D-43BB-91EA-35A7DA0D3336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1455AE1A-844D-43BB-91EA-35A7DA0D3336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1455AE1A-844D-43BB-91EA-35A7DA0D3336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1455AE1A-844D-43BB-91EA-35A7DA0D3336}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
