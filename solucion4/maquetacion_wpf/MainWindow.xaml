@@ -32,7 +32,7 @@
                             <TextBox Height="23" TextWrapping="Wrap" Width="72" Margin="7,0,0,0" Name="txtbox6"/>
                             <WrapPanel Height="133" Width="243">
                                 <TextBlock TextWrapping="Wrap" Text="PAGADO"/>
-                                <TextBox Height="23" TextWrapping="Wrap" Width="160" Margin="7,0,0,0" Name="txtbox7"/>
+                                <TextBox Height="23" TextWrapping="Wrap" Width="160" Margin="7,0,0,0" x:Name="txtbox7"/>
                                 <TextBlock TextWrapping="Wrap" Text="TOTAL"/>
                                 <TextBox Height="23" TextWrapping="Wrap" Width="152" Margin="7,0,0,0" Name="txtbox8"/>
                                 <Button Content="Nuevo" Width="75" Margin="7,7,0,0" RenderTransformOrigin="0.5,0.504" Click="Button_Click"/>
@@ -41,7 +41,7 @@
                             </WrapPanel>
                             <WrapPanel Height="124" Width="100">
                                 <Image Height="69" Width="94" Source="img2.bmp" Margin="0,7,0,0"/>
-                                <Button Content="Calculo" Width="75" BorderBrush="#FF2B22C2" Background="#FF5875D6" Foreground="#FFEDEDED" Margin="0,7,0,0"/>
+                                <Button Content="Calculo" Width="75" BorderBrush="#FF2B22C2" Background="#FF5875D6" Foreground="#FFEDEDED" Margin="0,7,0,0" RenderTransformOrigin="0.5,0.504" Click="Button_Click_5"/>
                             </WrapPanel>
                         </WrapPanel>
                     </WrapPanel>
@@ -65,7 +65,7 @@
                 <Button Content="Imprimir" Width="75" Margin="17,7,0,0" Click="Button_Click_3"/>
                 <Button Content="Salir" Width="75" Margin="17,7,0,0" Click="Button_Click_2"/>
                 <TextBlock TextWrapping="Wrap" Text="Total Registros:" FontSize="16" Margin="0,7,0,0" Foreground="#FFD90FEA"/>
-                <CheckBox Content="" Margin="0,7,0,0"/>
+                <CheckBox Content="" Margin="0,7,0,0" IsChecked="True"/>
             </WrapPanel>
         </DockPanel>
 

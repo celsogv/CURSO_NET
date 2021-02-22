@@ -20,6 +20,8 @@ namespace maquetacion_wpf
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        Decimal descuento, iva, cantidad = 0, preciouni, pagado, total, preciototal;
         public MainWindow()
         {
             InitializeComponent();
@@ -41,7 +43,7 @@ namespace maquetacion_wpf
         {
             try
             {
-                if ((txtbox2.Text == "") || (txtbox5.Text == "") || (txtbox6.Text == "") || (txtbox3.Text == ""))
+                if ((txtbox2.Text == "") || (txtbox6.Text == "") || (txtbox3.Text == ""))
                 {
                     MessageBox.Show("Faltan campos por rellenar");
 
@@ -50,7 +52,8 @@ namespace maquetacion_wpf
                 {
 
                     lvDatos.Items.Add(new { Nombre = txtbox2.Text, venta = txtbox5.Text, PecUni = txtbox6.Text, Descuento = txtbox3.Text });
-
+                    cantidad = cantidad + 1;
+                    MessageBox.Show(cantidad.ToString());
                 }
 
             } catch
@@ -84,6 +87,19 @@ namespace maquetacion_wpf
 
 
             }
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            descuento = Decimal.Parse((txtbox3.Text));
+            iva = Decimal.Parse((txtbox4).Text);
+            
+            preciouni = Decimal.Parse((txtbox6.Text));
+            pagado = Decimal.Parse((txtbox7.Text));
+            preciototal = (preciouni - descuento + iva) * cantidad;
+            total = pagado - preciototal;
+            txtbox8.Text = total.ToString(); 
+
         }
     }
 }
