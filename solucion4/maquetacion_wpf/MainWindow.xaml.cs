@@ -27,6 +27,11 @@ namespace maquetacion_wpf
             InitializeComponent();
         }
 
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             try
