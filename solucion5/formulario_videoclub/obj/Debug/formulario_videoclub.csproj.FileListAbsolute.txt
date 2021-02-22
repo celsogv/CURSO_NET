@@ -1,0 +1,15 @@
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion5\formulario_videoclub\bin\Debug\formulario_videoclub.exe.config
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion5\formulario_videoclub\bin\Debug\formulario_videoclub.exe
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion5\formulario_videoclub\bin\Debug\formulario_videoclub.pdb
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion5\formulario_videoclub\obj\Debug\formulario_videoclub.csprojAssemblyReference.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion5\formulario_videoclub\obj\Debug\MainWindow.g.cs
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion5\formulario_videoclub\obj\Debug\App.g.cs
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion5\formulario_videoclub\obj\Debug\formulario_videoclub_MarkupCompile.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion5\formulario_videoclub\obj\Debug\formulario_videoclub_MarkupCompile.lref
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion5\formulario_videoclub\obj\Debug\MainWindow.baml
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion5\formulario_videoclub\obj\Debug\formulario_videoclub.g.resources
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion5\formulario_videoclub\obj\Debug\formulario_videoclub.Properties.Resources.resources
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion5\formulario_videoclub\obj\Debug\formulario_videoclub.csproj.GenerateResource.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion5\formulario_videoclub\obj\Debug\formulario_videoclub.csproj.CoreCompileInputs.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion5\formulario_videoclub\obj\Debug\formulario_videoclub.exe
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion5\formulario_videoclub\obj\Debug\formulario_videoclub.pdb
