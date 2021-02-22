@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="Green">
-        
+        <DockPanel HorizontalAlignment="Left" Height="400" LastChildFill="False" Margin="10,10,0,0" VerticalAlignment="Top" Width="774">
+            
+            
+        </DockPanel>
+
     </Grid>
 </Window>
