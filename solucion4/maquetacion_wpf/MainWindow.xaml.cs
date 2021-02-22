@@ -29,14 +29,23 @@ namespace maquetacion_wpf
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            txtbox1.Text = "";
-            txtbox2.Text = "";
-            txtbox3.Text = "";
-            txtbox4.Text = "";
-            txtbox5.Text = "";
-            txtbox6.Text = "";
-            txtbox7.Text = "";
-            txtbox8.Text = "";
+            try
+            {
+                txtbox1.Text = "";
+                txtbox2.Text = "";
+                txtbox3.Text = "";
+                txtbox4.Text = "";
+                txtbox5.Text = "";
+                txtbox6.Text = "";
+                txtbox7.Text = "";
+                txtbox8.Text = "";
+
+            } catch
+            {
+                MessageBox.Show("Se ha producido un error");
+
+
+            }
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -50,7 +59,7 @@ namespace maquetacion_wpf
                 }
                 else if (txtbox6.Text == "")
                 {
-                MessageBox.Show("falta el precio unitariò por introducir");
+                    MessageBox.Show("falta el precio unitariò por introducir");
                 } else if (txtbox3.Text == "")
                 {
 
@@ -82,14 +91,23 @@ namespace maquetacion_wpf
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            PrintDialog pDialog = new PrintDialog();
-            pDialog.ShowDialog();
+            try
+            {
+                PrintDialog pDialog = new PrintDialog();
+                pDialog.ShowDialog();
+            } catch
+            {
+                MessageBox.Show("Se ha producido un error");
+
+
+
+            }
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
             try
-            {
+            {   
                 lvDatos.Items.RemoveAt(0);
                 lvDatos.Items.Refresh();
             } catch
@@ -102,14 +120,24 @@ namespace maquetacion_wpf
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-            descuento = Decimal.Parse((txtbox3.Text));
-            iva = Decimal.Parse((txtbox4).Text);
-            
-            preciouni = Decimal.Parse((txtbox6.Text));
-            pagado = Decimal.Parse((txtbox7.Text));
-            preciototal = (preciouni - descuento + iva) * cantidad;
-            total = pagado - preciototal;
-            txtbox8.Text = total.ToString(); 
+
+            try
+            {
+                descuento = Decimal.Parse((txtbox3.Text));
+                iva = Decimal.Parse((txtbox4).Text);
+                preciouni = Decimal.Parse((txtbox6.Text));
+                pagado = Decimal.Parse((txtbox7.Text));
+                preciototal = (preciouni - descuento + iva) * cantidad;
+                total = pagado - preciototal;
+                txtbox8.Text = total.ToString();
+                 
+            } catch
+            {
+
+                MessageBox.Show("Se ha producido un error");
+
+
+            }
 
         }
     }
