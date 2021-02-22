@@ -27,7 +27,7 @@
                             <TextBlock TextWrapping="Wrap" Text="IVA" Margin="7,0,0,0"/>
                             <TextBox Height="23" TextWrapping="Wrap" Width="85" Margin="7,0,0,0" Name="txtbox4"/>
                             <TextBlock TextWrapping="Wrap" Text="Cantidad"/>
-                            <TextBox Height="24" TextWrapping="Wrap" Width="100" Margin="7,0,0,0" Name="txtbox5"/>
+                            <TextBox Height="24" TextWrapping="Wrap" Width="100" Margin="7,0,0,0" Name="txtbox5" IsEnabled="False"/>
                             <TextBlock TextWrapping="Wrap" Text="Precio/Unit" Margin="7,0,0,0"/>
                             <TextBox Height="23" TextWrapping="Wrap" Width="72" Margin="7,0,0,0" Name="txtbox6"/>
                             <WrapPanel Height="133" Width="243">
@@ -48,20 +48,20 @@
                 </GroupBox>
             </WrapPanel>
             <WrapPanel Height="400" VerticalAlignment="Top" Width="407" RenderTransformOrigin="0.876,0.498">
-                <ListView Height="272" Width="405" Name="lvDatos" MinHeight="340" HorizontalAlignment="Stretch">
+                <ListView Height="272" Width="405" x:Name="lvDatos" MinHeight="340" HorizontalAlignment="Stretch">
                     <ListView.View>
                         <GridView AllowsColumnReorder="True">
-                            <GridViewColumn Header="Nombre" DisplayMemberBinding="{Binding Nombre}" Width="150" />
-                            <GridViewColumn Header="Cantidad de venta" DisplayMemberBinding="{Binding venta}" Width="190" />
-                            <GridViewColumn Header="Precio unitario" DisplayMemberBinding="{Binding PecUni}" Width="70" />
-                            <GridViewColumn Header="Descuento" DisplayMemberBinding="{Binding Descuento}" Width="70" />
+                            <GridViewColumn Header="Nombre" DisplayMemberBinding="{Binding Nombre}" Width="89" />
+                            <GridViewColumn Header="Cantidad de venta" DisplayMemberBinding="{Binding venta}" Width="104" />
+                            <GridViewColumn Header="Precio unitario" DisplayMemberBinding="{Binding PecUni}" Width="89" />
+                            <GridViewColumn Header="Descuento" DisplayMemberBinding="{Binding Descuento}" Width="89" />
 
                         </GridView>
                     </ListView.View>
-                    
-                    
+
+
                 </ListView>
-                    <Button Content="Eliminar" Width="75" Margin="17,7,0,0" Click="Button_Click_4"/>
+                <Button Content="Eliminar" Width="75" Margin="17,7,0,0" Click="Button_Click_4"/>
                 <Button Content="Imprimir" Width="75" Margin="17,7,0,0" Click="Button_Click_3"/>
                 <Button Content="Salir" Width="75" Margin="17,7,0,0" Click="Button_Click_2"/>
                 <TextBlock TextWrapping="Wrap" Text="Total Registros:" FontSize="16" Margin="0,7,0,0" Foreground="#FFD90FEA"/>

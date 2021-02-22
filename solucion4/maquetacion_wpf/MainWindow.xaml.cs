@@ -43,18 +43,29 @@ namespace maquetacion_wpf
         {
             try
             {
-                if ((txtbox2.Text == "") || (txtbox6.Text == "") || (txtbox3.Text == ""))
+                if (txtbox2.Text == "")
                 {
-                    MessageBox.Show("Faltan campos por rellenar");
+                    MessageBox.Show("Falta el nombre por introducir");
 
                 }
-                else
+                else if (txtbox6.Text == "")
+                {
+                MessageBox.Show("falta el precio unitariò por introducir");
+                } else if (txtbox3.Text == "")
                 {
 
-                    lvDatos.Items.Add(new { Nombre = txtbox2.Text, venta = txtbox5.Text, PecUni = txtbox6.Text, Descuento = txtbox3.Text });
+                    MessageBox.Show("Falta el descuento por introducir");
+
+                } else if (txtbox4.Text == "") {
+                    MessageBox.Show("Falta el iva por introducir");
+
+
+                } else 
+                {
                     cantidad = cantidad + 1;
-                    MessageBox.Show(cantidad.ToString());
-                }
+                    lvDatos.Items.Add(new { Nombre = txtbox2.Text, venta = cantidad, PecUni = txtbox6.Text, Descuento = txtbox3.Text });
+                    txtbox5.Text = cantidad.ToString();
+                } 
 
             } catch
             {
