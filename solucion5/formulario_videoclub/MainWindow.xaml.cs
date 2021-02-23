@@ -24,5 +24,21 @@ namespace formulario_videoclub
         {
             InitializeComponent();
         }
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            txtArtista.Visibility = Visibility.Visible;
+            txtDisco.Visibility = Visibility.Visible;
+            txtAutor.Visibility = Visibility.Hidden;
+            txtIsbn.Visibility = Visibility.Hidden;
+        }
+
+        private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
+        {
+            txtArtista.Visibility = Visibility.Hidden;
+            txtDisco.Visibility = Visibility.Hidden;
+            txtAutor.Visibility = Visibility.Visible;
+            txtIsbn.Visibility = Visibility.Visible;
+        }
     }
 }
