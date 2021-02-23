@@ -7,10 +7,36 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="Green">
-        <DockPanel HorizontalAlignment="Left" Height="400" LastChildFill="False" Margin="10,10,0,0" VerticalAlignment="Top" Width="774">
-            
-            
+        <DockPanel HorizontalAlignment="Left" Height="72" LastChildFill="False" Margin="10,10,0,0" VerticalAlignment="Top" Width="774">
+            <WrapPanel Height="57" VerticalAlignment="Top" Width="779">
+                <TextBlock TextWrapping="Wrap" Text="VIDEOCLUB MADISON" Foreground="#FFFCFAFA" FontSize="36" FontWeight="Bold" Margin="201,0,0,0"/>
+
+
+
+
+            </WrapPanel>
+
+
         </DockPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="122" Margin="10,82,0,0" VerticalAlignment="Top" Width="389" Background="Pink" RenderTransformOrigin="0.443,0.469">
+            <WrapPanel Height="121" Width="203">
+                <TextBlock TextWrapping="Wrap" Text="CODIGO" FontSize="14" FontWeight="Bold" Background="Green" Margin="17,17,0,0"/>
+                <TextBox Height="24" TextWrapping="Wrap" Width="100" Margin="17,17,0,0"/>
+                <Button Content="DESCRIPCION" Width="94" FontSize="14" Background="Green" Height="22" Margin="17,7,0,0" FontWeight="Bold"/>
+                <TextBox Height="58" TextWrapping="Wrap" Width="78" Margin="7,7,0,0"/>
+
+            </WrapPanel>
+            <WrapPanel Height="116" Width="186" RenderTransformOrigin="0.62,0.497">
+                <Button Content="PRECIO" Width="75" FontSize="14" FontWeight="Bold" Background="Green" Margin="17,17,0,0"/>
+                <TextBox Height="23" TextWrapping="Wrap" Width="74" Margin="17,17,0,0"/>
+                <RadioButton Content="COMPACTDISK" Height="30" Width="178"/>
+                <RadioButton Content="RadioButton" Height="27" Width="145"/>
+            </WrapPanel>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="117" Margin="419,87,0,0" VerticalAlignment="Top" Width="183" Background="Red"/>
+        <WrapPanel HorizontalAlignment="Left" Height="117" Margin="621,87,0,0" VerticalAlignment="Top" Width="149" RenderTransformOrigin="0.105,0.108" Background="Red"/>
+        <WrapPanel HorizontalAlignment="Left" Height="178" Margin="10,223,0,0" VerticalAlignment="Top" Width="592" RenderTransformOrigin="0.357,0.369" Background="Gray"/>
+        <WrapPanel HorizontalAlignment="Left" Height="178" Margin="641,223,0,0" VerticalAlignment="Top" Width="129"/>
 
     </Grid>
 </Window>
