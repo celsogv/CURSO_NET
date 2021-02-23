@@ -27,7 +27,8 @@ namespace formulario_videoclub
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
-            txtArtista.Visibility = Visibility.Visible;
+            txtArtista.IsEnabled = true;
+
             txtDisco.Visibility = Visibility.Visible;
             txtAutor.Visibility = Visibility.Hidden;
             txtIsbn.Visibility = Visibility.Hidden;
@@ -39,6 +40,11 @@ namespace formulario_videoclub
             txtDisco.Visibility = Visibility.Hidden;
             txtAutor.Visibility = Visibility.Visible;
             txtIsbn.Visibility = Visibility.Visible;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

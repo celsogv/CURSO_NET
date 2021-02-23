@@ -60,7 +60,7 @@
             </ListView>
         </WrapPanel>
         <WrapPanel HorizontalAlignment="Left" Height="178" Margin="641,223,0,0" VerticalAlignment="Top" Width="129">
-            <Button Content="AÑADIR" Width="75" FontWeight="Bold" Margin="17,0,0,0"/>
+            <Button Content="AÑADIR" Width="75" FontWeight="Bold" Margin="17,0,0,0" Click="Button_Click"/>
             <Button Content="SALIR" Width="75" FontWeight="Bold" Margin="17,17,0,0"/>
         </WrapPanel>
 
