@@ -10,74 +10,37 @@ namespace formulario_videoclub
     {
 
 
-        private int codigo;
-        private string descripcion;
-        private Decimal precio;
-        public Producto(int codigo, string descripcion, Decimal precio)
+        private int Codigo;
+        private double Precio;
+        private string Descripcion;
+
+        public Producto(int codigo, double precio, string descripcion)
         {
-
-            this.codigo = codigo;
-            this.descripcion = descripcion;
-            this.precio = precio;
-
-
-
-
+            Codigo = codigo;
+            Precio = precio;
+            Descripcion = descripcion;
+        }
+        public int MCodigo
+        {
+            get { return Codigo; }
+            set { Codigo = value; }
+        }
+        public double MPrecio
+        {
+            get { return Precio; }
+            set { Precio = value; }
+        }
+        public string MDescripcion
+        {
+            get { return Descripcion; }
+            set { Descripcion = value; }
         }
 
-        public int pCodigo
-        {
-            get
-            {
-                return codigo;
+    }
+
+       
 
 
-            }
-            set
-            {
-
-                codigo = value;
-
-            }
-
-        }
-
-        public string pDescripcion
-        {
-            get
-            {
-                return descripcion;
-
-
-            }
-            set
-            {
-
-                descripcion = value;
-
-            }
-
-        }
-
-        public Decimal pPrecio
-        {
-            get
-            {
-                return precio;
-
-
-            }
-            set
-            {
-
-                precio = value;
-
-            }
-
-        }
-
-
-
-    }  }
+    }  
 
 
