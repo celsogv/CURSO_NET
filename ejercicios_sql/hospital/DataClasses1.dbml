@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ejercicio_hospital" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=CADAVILES03\SQLEXPRESS;Initial Catalog=ejercicio_hospital;Integrated Security=True" SettingsObjectName="hospital.Properties.Settings" SettingsPropertyName="ejercicio_hospitalConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Dept" Member="Dept">
+    <Type Name="Dept">
+      <Column Name="Dept_No" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DNombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Loc" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Cod_Hospital" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Dept_Emp" Member="Emp" ThisKey="Dept_No" OtherKey="Dept_No" Type="Emp" />
+      <Association Name="Hospital_Dept" Member="Hospital" ThisKey="Cod_Hospital" OtherKey="Hospital_cod" Type="Hospital" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Doctor" Member="Doctor">
+    <Type Name="Doctor">
+      <Column Name="Hospital_Cod" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Doctor_No" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Especialidad" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Hospital_Doctor" Member="Hospital" ThisKey="Hospital_Cod" OtherKey="Hospital_cod" Type="Hospital" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Emp" Member="Emp">
+    <Type Name="Emp">
+      <Column Name="Emp_No" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Oficio" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Dir" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Fecha_Alt" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="Salario" Type="System.Decimal" DbType="Decimal(9,2)" CanBeNull="true" />
+      <Column Name="Comision" Type="System.Decimal" DbType="Decimal(9,2)" CanBeNull="true" />
+      <Column Name="Dept_No" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Dept_Emp" Member="Dept" ThisKey="Dept_No" OtherKey="Dept_No" Type="Dept" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Enfermo" Member="Enfermo">
+    <Type Name="Enfermo">
+      <Column Name="inscripcion" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Direccion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Dir" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Fecha_Nac" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="S" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="NSS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Cod_Hospital" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Hospital_Enfermo" Member="Hospital" ThisKey="Cod_Hospital" OtherKey="Hospital_cod" Type="Hospital" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Hospital" Member="Hospital">
+    <Type Name="Hospital">
+      <Column Name="Hospital_cod" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Direccion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Telefono" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="num_cama" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Hospital_Dept" Member="Dept" ThisKey="Hospital_cod" OtherKey="Cod_Hospital" Type="Dept" />
+      <Association Name="Hospital_Doctor" Member="Doctor" ThisKey="Hospital_cod" OtherKey="Hospital_Cod" Type="Doctor" />
+      <Association Name="Hospital_Enfermo" Member="Enfermo" ThisKey="Hospital_cod" OtherKey="Cod_Hospital" Type="Enfermo" />
+      <Association Name="Hospital_Plantilla" Member="Plantilla" ThisKey="Hospital_cod" OtherKey="Hospital_Cod" Type="Plantilla" />
+      <Association Name="Hospital_Sala" Member="Sala" ThisKey="Hospital_cod" OtherKey="Cod_Hospital" Type="Sala" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Plantilla" Member="Plantilla">
+    <Type Name="Plantilla">
+      <Column Name="Hospital_Cod" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Sala_Cod" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Empleado_No" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Funcion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="T" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="Salario" Type="System.Decimal" DbType="Decimal(9,2)" CanBeNull="true" />
+      <Association Name="Hospital_Plantilla" Member="Hospital" ThisKey="Hospital_Cod" OtherKey="Hospital_cod" Type="Hospital" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Sala" Member="Sala">
+    <Type Name="Sala">
+      <Column Name="Sala_Cod" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Cod_Hospital" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Especialidad" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Hospital_Sala" Member="Hospital" ThisKey="Cod_Hospital" OtherKey="Hospital_cod" Type="Hospital" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.buscarenfermo" Method="buscarenfermo">
+    <Parameter Name="inscripcion" Type="System.Int32" DbType="Int" />
+    <ElementType Name="buscarenfermoResult">
+      <Column Name="inscripcion" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Direccion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Dir" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Fecha_Nac" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="S" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="NSS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Cod_Hospital" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.eliminarenfermo" Method="eliminarenfermo">
+    <Parameter Name="inscripcion" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.insertarenfermo" Method="insertarenfermo">
+    <Parameter Name="nombre" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="inscripcion" Type="System.Int32" DbType="Int" />
+    <Parameter Name="sexo" Type="System.String" DbType="VarChar(2)" />
+    <Parameter Name="fecha" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="direccion" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="numero" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.listartodos" Method="listartodos">
+    <ElementType Name="listartodosResult">
+      <Column Name="inscripcion" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Direccion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Dir" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Fecha_Nac" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="S" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="NSS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Cod_Hospital" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.modificarenfermo" Method="modificarenfermo">
+    <Parameter Name="nombre" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="inscripcion" Type="System.Int32" DbType="Int" />
+    <Parameter Name="sexo" Type="System.String" DbType="VarChar(2)" />
+    <Parameter Name="fecha" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="direccion" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="numero" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.obtenerempleados" Method="obtenerempleados">
+    <Parameter Name="fechainicial" Type="System.DateTime" DbType="SmallDateTime" />
+    <Parameter Name="fechafinal" Type="System.DateTime" DbType="SmallDateTime" />
+    <Parameter Name="valordepartamento" Type="System.Int32" DbType="Int" />
+    <ElementType Name="obtenerempleadosResult">
+      <Column Name="Emp_No" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Oficio" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Dir" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Fecha_Alt" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="Salario" Type="System.Decimal" DbType="Decimal(9,2)" CanBeNull="true" />
+      <Column Name="Comision" Type="System.Decimal" DbType="Decimal(9,2)" CanBeNull="true" />
+      <Column Name="Dept_No" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>
