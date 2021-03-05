@@ -142,4 +142,74 @@
       <Column Name="Dept_No" Type="System.Int32" DbType="Int" CanBeNull="true" />
     </ElementType>
   </Function>
+  <Function Name="dbo.buscardoctor" Method="buscardoctor">
+    <Parameter Name="numerodoctor" Type="System.Int32" DbType="Int" />
+    <ElementType Name="buscardoctorResult">
+      <Column Name="Hospital_Cod" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Doctor_No" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Especialidad" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.buscarsala" Method="buscarsala">
+    <Parameter Name="codigosala" Type="System.Int32" DbType="Int" />
+    <ElementType Name="buscarsalaResult">
+      <Column Name="Sala_Cod" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Cod_Hospital" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Especialidad" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.eliminardoctor" Method="eliminardoctor">
+    <Parameter Name="numerodoctor" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.eliminarsala" Method="eliminarsala">
+    <Parameter Name="codigosala" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.insertardoctor" Method="insertardoctor">
+    <Parameter Name="codigohospital" Type="System.Int32" DbType="Int" />
+    <Parameter Name="numerodoctor" Type="System.Int32" DbType="Int" />
+    <Parameter Name="nombredoctor" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="especialidad" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.insertarsala" Method="insertarsala">
+    <Parameter Name="codigosala" Type="System.Int32" DbType="Int" />
+    <Parameter Name="codigohospital" Type="System.Int32" DbType="Int" />
+    <Parameter Name="nombresala" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="especialidadsala" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.listardoctores" Method="listardoctores">
+    <ElementType Name="listardoctoresResult">
+      <Column Name="Hospital_Cod" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Doctor_No" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Especialidad" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.listarsalas" Method="listarsalas">
+    <ElementType Name="listarsalasResult">
+      <Column Name="Sala_Cod" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Cod_Hospital" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Especialidad" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.modificardoctor" Method="modificardoctor">
+    <Parameter Name="codigohospital" Type="System.Int32" DbType="Int" />
+    <Parameter Name="numerodoctor" Type="System.Int32" DbType="Int" />
+    <Parameter Name="nombredoctor" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="especialidad" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.modificarsala2" Method="modificarsala2">
+    <Parameter Name="codigosala" Type="System.Int32" DbType="Int" />
+    <Parameter Name="codigohospital" Type="System.Int32" DbType="Int" />
+    <Parameter Name="nombresala" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="especialidadsala" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
 </Database>

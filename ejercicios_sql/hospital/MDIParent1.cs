@@ -29,13 +29,10 @@ namespace hospital
 
         private void OpenFile(object sender, EventArgs e)
         {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
-            openFileDialog.Filter = "Archivos de texto (*.txt)|*.txt|Todos los archivos (*.*)|*.*";
-            if (openFileDialog.ShowDialog(this) == DialogResult.OK)
-            {
-                string FileName = openFileDialog.FileName;
-            }
+            Form childForm = new Form3();
+            childForm.MdiParent = this;
+            childForm.Text = "Ventana " + childFormNumber++;
+            childForm.Show();
         }
 
         private void SaveAsToolStripMenuItem_Click(object sender, EventArgs e)
@@ -101,6 +98,14 @@ namespace hospital
             {
                 childForm.Close();
             }
+        }
+
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form childForm = new Form4();
+            childForm.MdiParent = this;
+            childForm.Text = "Ventana " + childFormNumber++;
+            childForm.Show();
         }
     }
 }

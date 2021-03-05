@@ -38,7 +38,7 @@ namespace hospital
             this.label6 = new System.Windows.Forms.Label();
             this.txtEspecialidad = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNom = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtNumDoc = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -68,7 +68,7 @@ namespace hospital
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.txtEspecialidad);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtNom);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.txtNumDoc);
             this.groupBox1.Controls.Add(this.label3);
@@ -88,6 +88,7 @@ namespace hospital
             this.button4.TabIndex = 12;
             this.button4.Text = "Exit";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -97,6 +98,7 @@ namespace hospital
             this.button3.TabIndex = 11;
             this.button3.Text = "Update´´";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -106,6 +108,7 @@ namespace hospital
             this.button2.TabIndex = 10;
             this.button2.Text = "Baja";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -115,6 +118,7 @@ namespace hospital
             this.button1.TabIndex = 9;
             this.button1.Text = "Alta";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label6
             // 
@@ -149,12 +153,12 @@ namespace hospital
             this.label5.TabIndex = 6;
             this.label5.Text = "Especialidad";
             // 
-            // textBox1
+            // txtNom
             // 
-            this.textBox1.Location = new System.Drawing.Point(198, 140);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 5;
+            this.txtNom.Location = new System.Drawing.Point(198, 140);
+            this.txtNom.Name = "txtNom";
+            this.txtNom.Size = new System.Drawing.Size(100, 22);
+            this.txtNom.TabIndex = 5;
             // 
             // label4
             // 
@@ -218,6 +222,7 @@ namespace hospital
             this.Controls.Add(this.label1);
             this.Name = "Form3";
             this.Text = "Sistema de Gestion de Hospital";
+            this.Load += new System.EventHandler(this.Form3_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -235,7 +240,7 @@ namespace hospital
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtNumDoc;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNom;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox txtEspecialidad;
         private System.Windows.Forms.Label label6;
