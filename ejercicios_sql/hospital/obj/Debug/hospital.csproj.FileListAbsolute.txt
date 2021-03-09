@@ -12,3 +12,4 @@ C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\hospital\obj\Debug\hospit
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\hospital\obj\Debug\hospital.Form3.resources
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\hospital\obj\Debug\hospital.MDIParent1.resources
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\hospital\obj\Debug\hospital.Form4.resources
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\hospital\obj\Debug\hospital.Form5.resources

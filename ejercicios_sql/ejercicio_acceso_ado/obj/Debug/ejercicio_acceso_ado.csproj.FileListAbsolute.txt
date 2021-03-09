@@ -1,0 +1,10 @@
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_acceso_ado\bin\Debug\ejercicio_acceso_ado.exe.config
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_acceso_ado\bin\Debug\ejercicio_acceso_ado.exe
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_acceso_ado\bin\Debug\ejercicio_acceso_ado.pdb
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_acceso_ado\obj\Debug\ejercicio_acceso_ado.csprojAssemblyReference.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_acceso_ado\obj\Debug\ejercicio_acceso_ado.Form1.resources
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_acceso_ado\obj\Debug\ejercicio_acceso_ado.Properties.Resources.resources
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_acceso_ado\obj\Debug\ejercicio_acceso_ado.csproj.GenerateResource.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_acceso_ado\obj\Debug\ejercicio_acceso_ado.csproj.CoreCompileInputs.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_acceso_ado\obj\Debug\ejercicio_acceso_ado.exe
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_acceso_ado\obj\Debug\ejercicio_acceso_ado.pdb

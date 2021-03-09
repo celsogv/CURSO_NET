@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio1", "ejercicio1\ej
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hospital", "hospital\hospital.csproj", "{ADE68DCB-1EE7-4E29-A1B2-B7514BCE58E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio_ado", "..\ejercicio_ado\ejercicio_ado.csproj", "{BEE8D2AF-8128-4E63-9021-7CC2779977A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio_acceso_ado", "ejercicio_acceso_ado\ejercicio_acceso_ado.csproj", "{DF73B032-35D5-4C27-8E0F-C27CBFC5B318}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{ADE68DCB-1EE7-4E29-A1B2-B7514BCE58E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADE68DCB-1EE7-4E29-A1B2-B7514BCE58E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADE68DCB-1EE7-4E29-A1B2-B7514BCE58E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE8D2AF-8128-4E63-9021-7CC2779977A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE8D2AF-8128-4E63-9021-7CC2779977A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE8D2AF-8128-4E63-9021-7CC2779977A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE8D2AF-8128-4E63-9021-7CC2779977A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF73B032-35D5-4C27-8E0F-C27CBFC5B318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF73B032-35D5-4C27-8E0F-C27CBFC5B318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF73B032-35D5-4C27-8E0F-C27CBFC5B318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF73B032-35D5-4C27-8E0F-C27CBFC5B318}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

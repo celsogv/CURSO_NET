@@ -49,10 +49,17 @@ namespace hospital
                 
                 MDIParent1 valor = new MDIParent1();
                 valor.Show();
+                this.Hide();
+
 
 
 
             }
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
