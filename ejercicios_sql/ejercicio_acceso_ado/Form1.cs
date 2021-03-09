@@ -21,6 +21,8 @@ namespace ejercicio_acceso_ado
         {
             InitializeComponent();
             cargar();
+            cargarcombo();
+
         }
 
 
@@ -37,6 +39,23 @@ namespace ejercicio_acceso_ado
 
 
         }
+
+
+        public void cargarcombo()
+        {
+            DataSet ds = new DataSet();
+            string cadena = "select * from CLIENTE";
+            SqlDataAdapter da = new SqlDataAdapter(cadena, conexion);
+            da.Fill(ds, "CLIENTE");
+            comboBox1.DataSource = ds.Tables[0].DefaultView;
+            comboBox1.ValueMember = "IDCLIENTE";
+            conexion.Close();
+
+
+
+
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             // TODO: esta línea de código carga datos en la tabla 'ejercicio_adoDataSet.CLIENTE' Puede moverla o quitarla según sea necesario.
@@ -59,6 +78,7 @@ namespace ejercicio_acceso_ado
             textBox2.Text = "";
             textBox3.Text = "";
             cargar();
+            cargarcombo();
             conexion.Close();
 
         }
@@ -78,6 +98,7 @@ namespace ejercicio_acceso_ado
                 textBox3.Text = "";
                 MessageBox.Show("Se borro el cliente");
                 cargar();
+                cargarcombo();
 
 
             } else
@@ -109,6 +130,8 @@ namespace ejercicio_acceso_ado
                 textBox2.Text = "";
                 textBox3.Text = "";
                 cargar();
+                cargarcombo();
+
 
             } else
             {
