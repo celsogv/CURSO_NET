@@ -1,0 +1,10 @@
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_linq\bin\Debug\ejercicio_linq.exe.config
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_linq\bin\Debug\ejercicio_linq.exe
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_linq\bin\Debug\ejercicio_linq.pdb
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_linq\obj\Debug\ejercicio_linq.csprojAssemblyReference.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_linq\obj\Debug\ejercicio_linq.Form1.resources
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_linq\obj\Debug\ejercicio_linq.Properties.Resources.resources
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_linq\obj\Debug\ejercicio_linq.csproj.GenerateResource.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_linq\obj\Debug\ejercicio_linq.csproj.CoreCompileInputs.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_linq\obj\Debug\ejercicio_linq.exe
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_linq\obj\Debug\ejercicio_linq.pdb

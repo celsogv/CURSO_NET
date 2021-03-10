@@ -144,5 +144,35 @@ namespace ejercicio_acceso_ado
 
 
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            conexion.Open();
+            string id = comboBox1.Text;
+            string cadena = "select IDCLIENTE, NOMBRES, APELLIDOS from CLIENTE where IDCLIENTE=" + id;
+            SqlCommand comando = new SqlCommand(cadena, conexion);
+            SqlDataReader registro = comando.ExecuteReader();
+            if (registro.Read())
+            {
+                textBox4.Text = registro["NOMBRES"].ToString() + " " + registro["APELLIDOS"].ToString();
+                button3.Enabled = true;
+                button2.Enabled = true;
+
+
+
+
+            } else
+            {
+                MessageBox.Show("No existe una persona con este ID");
+                textBox4.Text = "";
+                button3.Enabled = false;
+                button2.Enabled = false;
+
+
+
+            }
+
+
+        }
     }
 }

@@ -31,11 +31,7 @@ namespace ejercicio_acceso_ado
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.iDCLIENTEDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.aPELLIDOSDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nOMBRESDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cLIENTEBindingSource = new System.Windows.Forms.BindingSource(this.components);
-   //         this.ejercicio_adoDataSet = new ejercicio_acceso_ado.ejercicio_adoDataSet();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -45,22 +41,16 @@ namespace ejercicio_acceso_ado
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-//            this.cLIENTETableAdapter = new ejercicio_acceso_ado.ejercicio_adoDataSet.CLIENTETableAdapter();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cLIENTEBindingSource)).BeginInit();
- //           ((System.ComponentModel.ISupportInitialize)(this.ejercicio_adoDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.iDCLIENTEDataGridViewTextBoxColumn,
-            this.aPELLIDOSDataGridViewTextBoxColumn,
-            this.nOMBRESDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.cLIENTEBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(24, 55);
             this.dataGridView1.Name = "dataGridView1";
@@ -69,39 +59,9 @@ namespace ejercicio_acceso_ado
             this.dataGridView1.Size = new System.Drawing.Size(475, 268);
             this.dataGridView1.TabIndex = 0;
             // 
-            // iDCLIENTEDataGridViewTextBoxColumn
-            // 
-            this.iDCLIENTEDataGridViewTextBoxColumn.DataPropertyName = "IDCLIENTE";
-            this.iDCLIENTEDataGridViewTextBoxColumn.HeaderText = "IDCLIENTE";
-            this.iDCLIENTEDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.iDCLIENTEDataGridViewTextBoxColumn.Name = "iDCLIENTEDataGridViewTextBoxColumn";
-            this.iDCLIENTEDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // aPELLIDOSDataGridViewTextBoxColumn
-            // 
-            this.aPELLIDOSDataGridViewTextBoxColumn.DataPropertyName = "APELLIDOS";
-            this.aPELLIDOSDataGridViewTextBoxColumn.HeaderText = "APELLIDOS";
-            this.aPELLIDOSDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.aPELLIDOSDataGridViewTextBoxColumn.Name = "aPELLIDOSDataGridViewTextBoxColumn";
-            this.aPELLIDOSDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // nOMBRESDataGridViewTextBoxColumn
-            // 
-            this.nOMBRESDataGridViewTextBoxColumn.DataPropertyName = "NOMBRES";
-            this.nOMBRESDataGridViewTextBoxColumn.HeaderText = "NOMBRES";
-            this.nOMBRESDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.nOMBRESDataGridViewTextBoxColumn.Name = "nOMBRESDataGridViewTextBoxColumn";
-            this.nOMBRESDataGridViewTextBoxColumn.Width = 125;
-            // 
             // cLIENTEBindingSource
             // 
             this.cLIENTEBindingSource.DataMember = "CLIENTE";
- //           this.cLIENTEBindingSource.DataSource = this.ejercicio_adoDataSet;
-            // 
-            // ejercicio_adoDataSet
-            // 
-   //         this.ejercicio_adoDataSet.DataSetName = "ejercicio_adoDataSet";
-  //          this.ejercicio_adoDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // button1
             // 
@@ -181,10 +141,6 @@ namespace ejercicio_acceso_ado
             this.textBox3.Size = new System.Drawing.Size(140, 22);
             this.textBox3.TabIndex = 9;
             // 
-            // cLIENTETableAdapter
-            // 
-   //         this.cLIENTETableAdapter.ClearBeforeFill = true;
-            // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
@@ -192,6 +148,7 @@ namespace ejercicio_acceso_ado
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 24);
             this.comboBox1.TabIndex = 10;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // textBox4
             // 
@@ -222,7 +179,6 @@ namespace ejercicio_acceso_ado
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cLIENTEBindingSource)).EndInit();
-//            ((System.ComponentModel.ISupportInitialize)(this.ejercicio_adoDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
