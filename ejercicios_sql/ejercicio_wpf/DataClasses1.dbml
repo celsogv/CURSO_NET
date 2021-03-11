@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="curso" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=CADAVILES03\SQLEXPRESS;Initial Catalog=curso;Integrated Security=True" SettingsObjectName="ejercicio_wpf.Properties.Settings" SettingsPropertyName="cursoConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.alumnos" Member="alumnos">
+    <Type Name="alumnos">
+      <Column Name="Codigo" Type="System.String" DbType="VarChar(20)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="DNI" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Turno" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Sexo" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Repetidor" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Modulo" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Especialidad" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

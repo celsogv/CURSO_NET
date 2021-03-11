@@ -1,0 +1,80 @@
+﻿<Window x:Class="ejercicio_wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ejercicio_wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="523.6" Width="800">
+    <Grid Background="#FFDADDEE" Margin="0,0,-0.4,-30.4">
+        <WrapPanel HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="794" RenderTransformOrigin="0.12,0.163" Margin="0,0,-0.4,0" Background="Blue"/>
+        <WrapPanel HorizontalAlignment="Left" Height="97" Margin="0,26,0,0" VerticalAlignment="Top" Width="216">
+            <Label Content="Codigo" Width="52"/>
+            <TextBox Height="23" TextWrapping="Wrap" Width="161" Name="txtCodigo">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+
+                        <TranslateTransform X="0.049" Y="0.034"/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <Label Content="DNI" Width="52"/>
+            <TextBox Height="23" TextWrapping="Wrap" Width="160" Name="txtDni"/>
+            <Label Content="Turno" Width="52"/>
+            <ComboBox Width="159" SelectionChanged="ComboBox_SelectionChanged" Name="txtTurno">
+                <ComboBoxItem Content="Diurno" HorizontalAlignment="Left" Width="157.6"/>
+                <ComboBoxItem Content="Nocturno" HorizontalAlignment="Left" Width="157.6"/>
+            </ComboBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="97" Margin="216,26,0,0" VerticalAlignment="Top" Width="381">
+            <Label Content="Nombre" Width="90"/>
+            <TextBox Height="23" TextWrapping="Wrap" Width="282" Name="txtNombre"/>
+            <Label Content="Sexo" Width="90"/>
+            <ComboBox Width="281" Name="txtSexo">
+                <ComboBoxItem Content="Masculino" HorizontalAlignment="Left" Width="279.2"/>
+                <ComboBoxItem Content="Femenino" HorizontalAlignment="Left" Width="279.2"/>
+            </ComboBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="92" Margin="602,31,-0.4,0" VerticalAlignment="Top" Width="192">
+            <Label Content="Busqueda" Width="190" Height="28"/>
+            <Label Content="Codigo" Width="62"/>
+            <TextBox Height="23" TextWrapping="Wrap" Width="57"/>
+            <Button Content="" Width="65" Margin="7,0,0,0"/>
+            <Label Content="DNI" Width="62" Margin="0,7,0,0"/>
+            <TextBox Height="23" TextWrapping="Wrap" Text="&#xD;&#xA;" Width="57" Margin="0,7,0,0"/>
+            <Button Content="" Width="65" Margin="7,7,0,0"/>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="77" Margin="0,128,-0.4,0" VerticalAlignment="Top" Width="794">
+            <Label Content="Especialidad" Width="100"/>
+            <ComboBox Width="150" SelectionChanged="ComboBox_SelectionChanged_1" Name="txtEspecialidad">
+                <ComboBoxItem Content="Todos" HorizontalAlignment="Left" Width="148.8"/>
+                <ComboBoxItem Content="Informatica" HorizontalAlignment="Left" Width="148.8"/>
+                <ComboBoxItem Content="Web" HorizontalAlignment="Left" Width="148.8"/>
+                <ComboBoxItem Content="Programacion" HorizontalAlignment="Left" Width="148.8"/>
+            </ComboBox>
+            <Label Content="Modulo" Width="80"/>
+            <ComboBox Width="183" Name="txtModulo">
+                <ComboBoxItem Content="Todos" HorizontalAlignment="Left" Width="118.4"/>
+                <ComboBoxItem Content="Modulo1" HorizontalAlignment="Left" Width="118.4"/>
+                <ComboBoxItem Content="Modulo2" HorizontalAlignment="Left" Width="118.4"/>
+                <ComboBoxItem Content="Modulo3" HorizontalAlignment="Left" Width="118.4"/>
+            </ComboBox>
+            <Label Content="Repetidor" Width="74"/>
+            <CheckBox Content="" Checked="CheckBox_Checked"/>
+            <Button Content="Alta" Width="60" Click="Button_Click"/>
+            <Button Content="Baja" Width="52" Margin="7,0,0,0" Click="Button_Click_1"/>
+            <Button Content="Modi" Width="51" Margin="7,0,0,0" Click="Button_Click_2"/>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="208" Margin="0,210,0,0" VerticalAlignment="Top" Width="794">
+            <DataGrid Height="202" Width="795" SelectionChanged="DataGrid_SelectionChanged" Name="dataGridView1"/>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="100" Margin="0,424,0,0" VerticalAlignment="Top" Width="794" Background="Blue">
+            <Button Content="Boton1" Width="174" Height="72" Margin="17,0,0,0" Background="#FF2608BA" Foreground="White"/>
+            <Button Content="Boton2" Width="160" Margin="17,0,0,0" Background="#FF280BB7" Foreground="White"/>
+            <Button Content="Boton3" Width="163" Margin="17,0,0,0" Background="#FF290CBD" Foreground="White"/>
+            <Button Content="Boton4" Width="194" Margin="17,0,0,0" Background="#FF280EAB" Foreground="White"/>
+        </WrapPanel>
+    </Grid>
+</Window>

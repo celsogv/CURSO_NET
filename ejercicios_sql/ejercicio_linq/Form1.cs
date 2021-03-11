@@ -53,37 +53,66 @@ namespace ejercicio_linq
 
         private void BtnGuardar_Click(object sender, EventArgs e)
         {
-            Products MYProduct = new Products();
-            MYProduct.ProductName = TxtProd.Text;
-            MYProduct.UnitPrice = int.Parse(TxtPrec.Text);
-            MYProduct.UnitsInStock = short.Parse(TxtStock.Text);
-            MYProduct.CategoryID = int.Parse(TxtCat.Text);
-            northwind.Products.InsertOnSubmit(MYProduct);
-            northwind.SubmitChanges();
-            cargarGrid();
+            try
+            {
+                Products MYProduct = new Products();
+                MYProduct.ProductName = TxtProd.Text;
+                MYProduct.UnitPrice = int.Parse(TxtPrec.Text);
+                MYProduct.UnitsInStock = short.Parse(TxtStock.Text);
+                MYProduct.CategoryID = int.Parse(TxtCat.Text);
+                northwind.Products.InsertOnSubmit(MYProduct);
+                northwind.SubmitChanges();
+                cargarGrid();
+            } catch
+            {
+
+
+                MessageBox.Show("Se ha producido un error");
+            }
 
 
         }
 
         private void BtnGuardar2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(comboBox1.SelectedItem.ToString());
-            Products MyProducto = northwind.Products.Single(p => p.ProductName == comboBox1.SelectedItem.ToString());
-            MyProducto.ProductName = comboBox1.SelectedItem.ToString();
-            MyProducto.UnitPrice = int.Parse(TxtPrec.Text);
-            MyProducto.UnitsInStock = short.Parse(TxtStock.Text);
-            MyProducto.CategoryID = int.Parse(TxtCat.Text);
-            northwind.SubmitChanges();
-            cargarGrid();
+
+
+            try
+            {
+                Products MyProducto = northwind.Products.Single(p => p.ProductName == comboBox1.SelectedItem.ToString());
+                MyProducto.ProductName = comboBox1.SelectedItem.ToString();
+                MyProducto.UnitPrice = int.Parse(TxtPrec.Text);
+                MyProducto.UnitsInStock = short.Parse(TxtStock.Text);
+                MyProducto.CategoryID = int.Parse(TxtCat.Text);
+                northwind.SubmitChanges();
+                cargarGrid();
+            } catch
+            {
+                MessageBox.Show("Se ha producido un error");
+
+
+
+            }
 
         }
 
         private void BtnEliminar_Click(object sender, EventArgs e)
         {
-            Products MyProduct = northwind.Products.Single(predicate => predicate.ProductName == comboBox1.SelectedItem.ToString());
-            northwind.Products.DeleteOnSubmit(MyProduct);
-            northwind.SubmitChanges();
 
+
+            try
+            {
+                Products MyProduct = northwind.Products.Single(predicate => predicate.ProductName == comboBox1.SelectedItem.ToString());
+                northwind.Products.DeleteOnSubmit(MyProduct);
+                northwind.SubmitChanges();
+                cargarGrid();
+            } catch
+            {
+                MessageBox.Show("Se ha producido un error");
+
+
+
+            }
 
         }
     }
