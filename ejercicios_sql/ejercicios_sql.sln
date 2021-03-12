@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio_linq", "ejercicio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio_wpf", "ejercicio_wpf\ejercicio_wpf.csproj", "{36B58649-FC9B-4444-8776-44B4E2B112EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio_entity", "ejercicio_entity\ejercicio_entity.csproj", "{4EC14FD0-8795-4E39-A6CF-61C5071CCDC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio_filtros_linq", "ejercicio_filtros_linq\ejercicio_filtros_linq.csproj", "{8F650FF1-8FB0-4EFE-B95F-703C0153B7E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{36B58649-FC9B-4444-8776-44B4E2B112EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36B58649-FC9B-4444-8776-44B4E2B112EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36B58649-FC9B-4444-8776-44B4E2B112EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EC14FD0-8795-4E39-A6CF-61C5071CCDC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EC14FD0-8795-4E39-A6CF-61C5071CCDC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EC14FD0-8795-4E39-A6CF-61C5071CCDC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EC14FD0-8795-4E39-A6CF-61C5071CCDC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F650FF1-8FB0-4EFE-B95F-703C0153B7E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F650FF1-8FB0-4EFE-B95F-703C0153B7E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F650FF1-8FB0-4EFE-B95F-703C0153B7E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F650FF1-8FB0-4EFE-B95F-703C0153B7E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

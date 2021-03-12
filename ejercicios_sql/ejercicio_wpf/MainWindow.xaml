@@ -40,11 +40,11 @@
         <WrapPanel HorizontalAlignment="Left" Height="92" Margin="602,31,-0.4,0" VerticalAlignment="Top" Width="192">
             <Label Content="Busqueda" Width="190" Height="28"/>
             <Label Content="Codigo" Width="62"/>
-            <TextBox Height="23" TextWrapping="Wrap" Width="57"/>
-            <Button Content="" Width="65" Margin="7,0,0,0"/>
+            <TextBox Height="23" TextWrapping="Wrap" Width="57" Name="busquedaCodigo"/>
+            <Button Content="" Width="65" Margin="7,0,0,0" Click="Button_Click_3"/>
             <Label Content="DNI" Width="62" Margin="0,7,0,0"/>
-            <TextBox Height="23" TextWrapping="Wrap" Text="&#xD;&#xA;" Width="57" Margin="0,7,0,0"/>
-            <Button Content="" Width="65" Margin="7,7,0,0"/>
+            <TextBox Height="23" TextWrapping="Wrap" Text="&#xD;&#xA;" Width="57" Margin="0,7,0,0" Name="busquedaDni"/>
+            <Button Content="" Width="65" Margin="7,7,0,0" Click="Button_Click_4"/>
         </WrapPanel>
         <WrapPanel HorizontalAlignment="Left" Height="77" Margin="0,128,-0.4,0" VerticalAlignment="Top" Width="794">
             <Label Content="Especialidad" Width="100"/>

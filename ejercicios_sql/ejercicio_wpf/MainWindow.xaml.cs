@@ -131,5 +131,39 @@ namespace ejercicio_wpf
 
             }
         }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var cargaGrid = from p in curso.alumnos where p.Codigo == busquedaCodigo.Text select p;
+                dataGridView1.ItemsSource = cargaGrid;
+
+            } catch
+            {
+                MessageBox.Show("Se ha producido un error");
+
+
+
+            }
+           
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var cargaGrid = from p in curso.alumnos where p.DNI == busquedaDni.Text.ToString() select p;
+                dataGridView1.ItemsSource = cargaGrid;
+
+            }
+            catch
+            {
+                MessageBox.Show("Se ha producido un error");
+
+
+
+            }
+        }
     }
 }

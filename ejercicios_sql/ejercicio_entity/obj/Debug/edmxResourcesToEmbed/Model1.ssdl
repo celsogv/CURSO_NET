@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ejercicio_entityModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Alumnos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+    <Property Name="Edad" Type="varchar" MaxLength="50" />
+    <Property Name="Nota" Type="varchar" MaxLength="50" />
+    <Property Name="Idprofesor" Type="int" />
+  </EntityType>
+  <EntityType Name="Profesores">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+    <Property Name="Especialidad" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Alumnos_Profesores">
+    <End Role="Profesores" Type="Self.Profesores" Multiplicity="0..1" />
+    <End Role="Alumnos" Type="Self.Alumnos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Profesores">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Alumnos">
+        <PropertyRef Name="Idprofesor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ejercicio_entityModelStoreContainer">
+    <EntitySet Name="Alumnos" EntityType="Self.Alumnos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Profesores" EntityType="Self.Profesores" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Alumnos_Profesores" Association="Self.FK_Alumnos_Profesores">
+      <End Role="Profesores" EntitySet="Profesores" />
+      <End Role="Alumnos" EntitySet="Alumnos" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
