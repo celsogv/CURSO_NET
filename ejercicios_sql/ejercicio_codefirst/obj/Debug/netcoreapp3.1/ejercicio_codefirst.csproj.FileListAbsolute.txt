@@ -1,0 +1,16 @@
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_codefirst\bin\Debug\netcoreapp3.1\ejercicio_codefirst.exe
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_codefirst\bin\Debug\netcoreapp3.1\ejercicio_codefirst.deps.json
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_codefirst\bin\Debug\netcoreapp3.1\ejercicio_codefirst.runtimeconfig.json
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_codefirst\bin\Debug\netcoreapp3.1\ejercicio_codefirst.runtimeconfig.dev.json
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_codefirst\bin\Debug\netcoreapp3.1\ejercicio_codefirst.dll
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_codefirst\bin\Debug\netcoreapp3.1\ejercicio_codefirst.pdb
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_codefirst\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_codefirst\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_codefirst\obj\Debug\netcoreapp3.1\ejercicio_codefirst.csprojAssemblyReference.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_codefirst\obj\Debug\netcoreapp3.1\ejercicio_codefirst.AssemblyInfoInputs.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_codefirst\obj\Debug\netcoreapp3.1\ejercicio_codefirst.AssemblyInfo.cs
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_codefirst\obj\Debug\netcoreapp3.1\ejercicio_codefirst.csproj.CoreCompileInputs.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_codefirst\obj\Debug\netcoreapp3.1\ejercicio_codefirst.csproj.CopyComplete
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_codefirst\obj\Debug\netcoreapp3.1\ejercicio_codefirst.dll
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_codefirst\obj\Debug\netcoreapp3.1\ejercicio_codefirst.pdb
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_codefirst\obj\Debug\netcoreapp3.1\ejercicio_codefirst.genruntimeconfig.cache

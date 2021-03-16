@@ -5,19 +5,53 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ejercicio_filtros_linq"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="651.8" Width="800">
     <Grid>
         <WrapPanel HorizontalAlignment="Left" Height="60" Margin="0,0,-0.4,0" VerticalAlignment="Top" Width="794" RenderTransformOrigin="-0.055,0.28" Background="#FF6C6B6B">
             <Label Content="Busqueda" BorderBrush="#FFCA4D4D" OpacityMask="Black" Foreground="White" Height="55" Width="261" FontSize="26" Margin="309,0,0,0"/>
         </WrapPanel>
-        <WrapPanel HorizontalAlignment="Left" Height="178" Margin="10,65,0,0" VerticalAlignment="Top" Width="774">
+        <WrapPanel HorizontalAlignment="Left" Height="274" Margin="10,60,0,0" VerticalAlignment="Top" Width="774">
             <Label Content="Criterio de Filtros" Width="776"/>
             <Label Content="Nombre" Width="70" Margin="17,0,0,0"/>
             <TextBox Height="23" TextWrapping="Wrap" Width="258"/>
             <Label Content="Apellidos" Width="81" Margin="17,0,0,0"/>
             <TextBox Height="23" TextWrapping="Wrap" Width="307"/>
-            <Label Content="Fecha Inscripcion" Width="112"/>
+            <Label Content="Fecha Inscripcion" Width="112" Margin="17,17,0,0"/>
+            <Label Content="Desde" Width="64" Margin="17,17,0,0"/>
+            <DatePicker Width="148" Margin="0,17,0,0" Name="fecha3"/>
+            <CheckBox x:Name="CheckBox1" Content="" IsChecked="True" Margin="17,17,0,0" Width="38" Checked="CheckBox1_Checked" Unchecked="CheckBox1_UnChecked"/>
+            <Label Content="Hasta" Margin="0,17,0,0" Width="75"/>
+            <DatePicker Margin="0,17,0,0" Name="fecha4"/>
+            <CheckBox x:Name="CheckBox2" Content="" Margin="17,17,0,0" IsChecked="True" Checked="CheckBox2_Checked" Unchecked="CheckBox2_UnChecked"/>
+            <WrapPanel Height="100" Width="774">
+                <CheckBox Content="Solo Instructores" Margin="17,17,0,0" Width="752" Checked="CheckBox3_Checked" Unchecked="CheckBox3_UnChecked"/>
+                <Label Content="fecha Contratacion" Margin="17,17,0,0"/>
+                <Label Content="desde" Margin="17,17,0,0"/>
+                <DatePicker Margin="17,17,0,0" IsEnabled="False" Name="fecha1"/>
+                <CheckBox Content="" Margin="17,17,0,0" IsEnabled="False" Name="checkbox1"/>
+                <Label Content="Hasta" Margin="17,17,0,0"/>
+                <DatePicker Margin="17,17,0,0" IsEnabled="False" Name="fecha2"/>
+                <CheckBox Content="" Margin="17,17,0,0" IsEnabled="False" Name="checkbox2"/>
+            </WrapPanel>
+            <Label Content="Curso" Margin="17,17,0,0"/>
+            <ComboBox Width="490" Margin="17,17,0,0">
+                <ComboBoxItem Content="Informatica" HorizontalAlignment="Left" Width="488"/>
+                <ComboBoxItem Content="Web" HorizontalAlignment="Left" Width="488"/>
+                <ComboBoxItem Content="Programacion" HorizontalAlignment="Left" Width="488"/>
+                <ComboBoxItem Content="Tutorizacion Online" HorizontalAlignment="Left" Width="488"/>
+                <ComboBoxItem Content="Direccion Estrategica en TICS" HorizontalAlignment="Left" Width="488"/>
+                <ComboBoxItem Content="DBA en SQL Server" HorizontalAlignment="Left" Width="488"/>
+                <ComboBoxItem Content="Teen TICS en el Sector Educativoico" HorizontalAlignment="Left" Width="488"/>
+                <ComboBoxItem Content="ComboBoxItem" HorizontalAlignment="Left" Width="488"/>
+                <ComboBoxItem Content="El Modulo de Controlling del Software de Gestion por Procesos" HorizontalAlignment="Left" Width="488"/>
+                <ComboBoxItem Content="Logica en Software de Gestion" HorizontalAlignment="Left" Width="488"/>
+                <ComboBoxItem Content="Diseño de Paginas Webn: html y Css" HorizontalAlignment="Left" Width="488"/>
+            </ComboBox>
         </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="240" Margin="0,334,0,0" VerticalAlignment="Top" Width="784">
+            <DataGrid Height="238" Width="792"/>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="48" Margin="0,574,-0.4,0" VerticalAlignment="Top" Width="794" Background="Gray"/>
 
     </Grid>
 </Window>

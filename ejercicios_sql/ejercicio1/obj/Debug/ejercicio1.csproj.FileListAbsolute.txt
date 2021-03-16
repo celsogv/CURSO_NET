@@ -8,3 +8,8 @@ C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio1\obj\Debug\ejer
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio1\obj\Debug\ejercicio1.exe
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio1\obj\Debug\ejercicio1.pdb
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio1\obj\Debug\ejercicio1.csprojAssemblyReference.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio1\bin\Debug\EntityFramework.dll
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio1\bin\Debug\EntityFramework.xml
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio1\obj\Debug\ejercicio1.csproj.CopyComplete

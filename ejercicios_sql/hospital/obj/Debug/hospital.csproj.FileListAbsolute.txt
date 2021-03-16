@@ -12,3 +12,9 @@ C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\hospital\obj\Debug\hospit
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\hospital\obj\Debug\hospital.MDIParent1.resources
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\hospital\obj\Debug\hospital.Form4.resources
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\hospital\obj\Debug\hospital.Form5.resources
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\hospital\bin\Debug\EntityFramework.dll
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\hospital\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\hospital\bin\Debug\EntityFramework.xml
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\hospital\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\hospital\obj\Debug\hospital.csprojAssemblyReference.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\hospital\obj\Debug\hospital.csproj.CopyComplete

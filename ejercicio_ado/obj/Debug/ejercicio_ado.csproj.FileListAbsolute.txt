@@ -9,3 +9,9 @@ C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicio_ado\obj\Debug\ejercicio_ado.ex
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicio_ado\obj\Debug\ejercicio_ado.pdb
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicio_ado\obj\Debug\ejercicio_ado.Form2.resources
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicio_ado\obj\Debug\ejercicio_ado.Form3.resources
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicio_ado\bin\Debug\EntityFramework.dll
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicio_ado\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicio_ado\bin\Debug\EntityFramework.xml
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicio_ado\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicio_ado\obj\Debug\ejercicio_ado.csprojAssemblyReference.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicio_ado\obj\Debug\ejercicio_ado.csproj.CopyComplete

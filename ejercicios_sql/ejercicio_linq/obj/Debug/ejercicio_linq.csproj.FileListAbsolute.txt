@@ -8,3 +8,8 @@ C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_linq\obj\Debug\
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_linq\obj\Debug\ejercicio_linq.csproj.CoreCompileInputs.cache
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_linq\obj\Debug\ejercicio_linq.exe
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_linq\obj\Debug\ejercicio_linq.pdb
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_linq\bin\Debug\EntityFramework.dll
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_linq\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_linq\bin\Debug\EntityFramework.xml
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_linq\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_linq\obj\Debug\ejercicio_linq.csproj.CopyComplete

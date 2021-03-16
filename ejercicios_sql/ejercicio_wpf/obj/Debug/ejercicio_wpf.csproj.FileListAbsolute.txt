@@ -13,3 +13,8 @@ C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_wpf\obj\Debug\e
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_wpf\obj\Debug\ejercicio_wpf.csproj.CoreCompileInputs.cache
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_wpf\obj\Debug\ejercicio_wpf.exe
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_wpf\obj\Debug\ejercicio_wpf.pdb
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_wpf\bin\Debug\EntityFramework.dll
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_wpf\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_wpf\bin\Debug\EntityFramework.xml
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_wpf\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_wpf\obj\Debug\ejercicio_wpf.csproj.CopyComplete

@@ -8,3 +8,8 @@ C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_acceso_ado\obj\
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_acceso_ado\obj\Debug\ejercicio_acceso_ado.csproj.CoreCompileInputs.cache
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_acceso_ado\obj\Debug\ejercicio_acceso_ado.exe
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_acceso_ado\obj\Debug\ejercicio_acceso_ado.pdb
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_acceso_ado\bin\Debug\EntityFramework.dll
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_acceso_ado\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_acceso_ado\bin\Debug\EntityFramework.xml
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_acceso_ado\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_sql\ejercicio_acceso_ado\obj\Debug\ejercicio_acceso_ado.csproj.CopyComplete
