@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="proyecto" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=CADAVILES03\SQLEXPRESS;Initial Catalog=proyecto;Integrated Security=True" SettingsObjectName="proyecto.Properties.Settings" SettingsPropertyName="proyectoConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.usuarios" Member="usuarios">
+    <Type Name="usuarios">
+      <Column Name="usuario" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="contrasena" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="administrador" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.clientes" Member="clientes">
+    <Type Name="clientes">
+      <Column Name="id_cliente" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(39)" CanBeNull="true" />
+      <Column Name="primerapellido" Type="System.String" DbType="VarChar(39)" CanBeNull="true" />
+      <Column Name="segundoapellido" Type="System.String" DbType="VarChar(39)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.pedidos" Member="pedidos">
+    <Type Name="pedidos">
+      <Column Name="id_pedido" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="id_cliente" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="total_pedido" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fecha" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.recambios" Member="recambios">
+    <Type Name="recambios">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="producto" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="precio" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="unidades" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="caracteristicas" Type="System.String" DbType="VarChar(49)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

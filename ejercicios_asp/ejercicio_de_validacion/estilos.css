@@ -1,0 +1,38 @@
+﻿body {
+}
+
+
+#contenedor {
+
+
+  
+    width: 79%;
+
+    margin: 0 auto;
+
+
+
+}
+
+
+#izquierda {
+    
+    width: 30%;
+    float: left;
+
+
+
+
+
+
+}
+
+#derecha {
+    
+    width: 67%;
+    float: left;
+
+
+
+
+}

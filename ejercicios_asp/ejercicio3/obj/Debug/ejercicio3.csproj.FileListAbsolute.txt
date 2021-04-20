@@ -56,3 +56,4 @@ C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_asp\ejercicio3\obj\Debug\ejer
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_asp\ejercicio3\obj\Debug\ejercicio3.csproj.CopyComplete
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_asp\ejercicio3\obj\Debug\ejercicio3.dll
 C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_asp\ejercicio3\obj\Debug\ejercicio3.pdb
+C:\Users\MAÑANA\source\repos\CURSO_NET\ejercicios_asp\ejercicio3\obj\Debug\ejercicio3.csprojAssemblyReference.cache

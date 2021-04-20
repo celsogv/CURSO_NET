@@ -1,0 +1,12 @@
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion_proyecto\proyecto\bin\Debug\proyecto.exe.config
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion_proyecto\proyecto\bin\Debug\proyecto.exe
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion_proyecto\proyecto\bin\Debug\proyecto.pdb
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion_proyecto\proyecto\obj\Debug\proyecto.Form1.resources
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion_proyecto\proyecto\obj\Debug\proyecto.Form2.resources
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion_proyecto\proyecto\obj\Debug\proyecto.Properties.Resources.resources
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion_proyecto\proyecto\obj\Debug\proyecto.csproj.GenerateResource.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion_proyecto\proyecto\obj\Debug\proyecto.csproj.CoreCompileInputs.cache
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion_proyecto\proyecto\obj\Debug\proyecto.exe
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion_proyecto\proyecto\obj\Debug\proyecto.pdb
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion_proyecto\proyecto\obj\Debug\proyecto.Form3.resources
+C:\Users\MAÑANA\source\repos\CURSO_NET\solucion_proyecto\proyecto\obj\Debug\proyecto.csprojAssemblyReference.cache
